@@ -19,8 +19,6 @@
 <script>
 export default {
   name: 'Sintesis',
-  data: () => ({
-  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
