@@ -460,7 +460,7 @@
     p.mb-3 Las matrices diagnósticas han sido diseñadas con el fin de condensar diferentes factores claves de éxito de una organización, para medirlos o evaluarlos desde la realidad de su desempeño y operación empresarial. Ellas son instrumentos poderosos para la gestión empresarial, que permiten recoger información sobre diferentes aspectos de la empresa, para que luego, a través de la aplicación de otras estrategias o simplemente del análisis del conjunto de información, se pueda construir una conclusión. A continuación, se desarrollan las más relevantes.
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
-      .py-4.py-md-4.tabs-c__content-item-1(titulo="Matriz FODA")
+      .py-4.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz FODA")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-6.mb-3.mb-md-0
               h5 Matriz FODA
@@ -484,7 +484,7 @@
                         img.mt-3(src="@/assets/curso/images/tema1/fig_dofa.svg").m-auto
           
 
-      .py-3.py-md-4.tabs-c__content-item-1(titulo="Matriz de  PCI")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz de  PCI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Matriz de  PCI
@@ -506,7 +506,7 @@
                       .col-md-12
                         figure
                           img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_2.svg").m-auto
-      .py-3.py-md-4.tabs-c__content-item-1(titulo="Modelo de las Cinco Fuerzas")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las Cinco Fuerzas")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Modelo de las Cinco Fuerzas
@@ -535,7 +535,7 @@
                       .col-md-12
                         figure
                           img.mt-3(src="@/assets/curso/images/tema1/fig_6.svg").m-auto
-      .py-3.py-md-4.tabs-c__content-item-1(titulo="Matriz EFI")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz EFI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Matriz EFI
@@ -563,7 +563,7 @@
                       .col-md-12
                         figure
                           img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_3.svg").m-auto
-      .py-3.py-md-4.tabs-c__content-item-1(titulo="Matriz MEFE")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz MEFE")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Matriz MEFE
@@ -589,7 +589,7 @@
                       .col-md-12
                         figure
                           img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_4.svg").m-auto
-      .py-3.py-md-4.tabs-c__content-item-1(titulo="Matriz POAM")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz POAM")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Matriz POAM

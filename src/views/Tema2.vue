@@ -86,33 +86,57 @@
           .col-lg-6
             p.mb-3 Los instrumentos de recolección de información cualitativa son necesarios debido a la existencia de la investigación cualitativa basada en la comparación. Este tipo de instrumentos son utilizados en proyectos donde se requiere demostrar una teoría, donde existe una variable dependiente y una independiente, es decir, proyectos de tipo social o que analizan el comportamiento humano en un entorno determinado indiferente del sector al que corresponda. 
 
-            p.mb-0 Los instrumentos de recolección de información cualitativa son:
-              ul.lista-ul--color.mt-3
-                li.mb-4
-                  i.fa-folder
-                  | Entrevistas.
-                li.mb-4
-                  i.fa-folder
-                  | Observación participante.
-                li.mb-4
-                  i.fa-folder
-                  | Análisis documental.
-                li.mb-4
-                  i.fa-folder
-                  | Autorreportaje.
-                li.mb-4
-                  i.fa-folder
-                  | Categorización.
-                li.mb-4
-                  i.fa-folder
-                  | Triangulación y Teoría fundamentada. Perspectivas de diferentes autores.
-                li.mb-4
-                  i.fa-folder
-                  | Documentos de archivo y fuentes gubernamentales.
-                li.mb-4
-                  i.fa-folder
-                  | Comunidades <i>online.</i> 
-              h3 Instrumentos de recolección de información cuantitativa
+            p.mb-3 Los instrumentos de recolección de información cualitativa son:
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Entrevistas.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Observación participante.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Análisis documental.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Autorreportaje.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Categorización.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Triangulación y Teoría fundamentada. Perspectivas de diferentes autores.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Documentos de archivo y fuentes gubernamentales.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Comunidades <i>online.</i> 
+          
+         
           .col-lg-6
             img(src='@/assets/curso/images/tema2/img_4.png')
 
@@ -120,28 +144,49 @@
         .row.align-items-star.justify-content-center.p-4
           .col-lg-7
             p.mb-3 Están orientados a obtener datos concretos y numéricos sobre la variable, situación o problema objeto de estudio.
-            ul.lista-ul--color.mt-3
-              li.mb-4
-                i.fa-folder
-                | Entrevista.
-              li.mb-4
-                i.fa-folder
-                | Cuestionario físico y <i>online.</i> 
-              li.mb-4
-                i.fa-folder
-                | Observación cuantitativa.
-              li.mb-4
-                i.fa-folder
-                | Documentos de archivo y fuentes gubernamentales.
-              li.mb-4
-                i.fa-folder
-                | <i>Focus group</i> presenciales y <i>online.</i> 
-              li.mb-4
-                i.fa-folder
-                | Comunidades <i>online.</i> 
-              li.mb-4
-                i.fa-folder
-                | Experimentos de laboratorio.
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Entrevistas.
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Cuestionario físico y <i>online.</i> 
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Observación cuantitativa.
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Documentos de archivo y fuentes gubernamentales.
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top <i>Focus group</i> presenciales y <i>online.</i> 
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Triangulación y Teoría fundamentada. Perspectivas de diferentes autores.
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+              .list__txt    
+                p.m-top Experimentos de laboratorio.
+            
           .col-lg-5
             img(src='@/assets/curso/images/tema2/img_5.png')
           
@@ -153,31 +198,48 @@
       .col-lg-3(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema2/img_6.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
       .col-lg-6(data-aos="fade-right") 
-        ul.lista-ul--color.mt-3
-          li.mb-4
-            i.fa-folder
-            | Encuesta.
-          li.mb-4
-            i.fa-folder
-            | Observación.
-          li.mb-4
-            i.fa-folder
-            | Entrevista.
-          li.mb-4
-            i.fa-folder
-            | Recopilación documental, revisión documental o análisis documental.
-          li.mb-4
-            i.fa-folder
-            | Autorreportaje.
-          li.mb-4
-            i.fa-folder
-            | Categorización.
-          li.mb-4
-            i.fa-folder
-            | Triangulación y teoría fundamentada. 
-          li.mb-4
-            i.fa-folder
-            | Comunidades <i>online.</i> 
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Encuesta.
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Observación.
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Entrevista.
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Recopilación documental, revisión documental o análisis documental.
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Autorreportaje. 
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Triangulación y teoría fundamentada. 
+        .list
+          .list__item
+            .list__item__icon
+              img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+          .list__txt    
+            p.m-top Comunidades <i>online.</i> 
           
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
       
