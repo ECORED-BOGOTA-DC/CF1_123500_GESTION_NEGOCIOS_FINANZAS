@@ -100,11 +100,11 @@
                 th Pequeña
                 td Desde 811 hasta 7.027
                 td Desde 1.131 hasta 4.523
-                td Desde 4.523 hasta 16.558
+                td Desde 1.535 hasta 14.781
               tr 
                 th.th-1  Mediana  
                 td.th-1  Desde 7.027 hasta 59.527
-                td.th-1  Desde 1.535 hasta 14.781
+                td.th-1  Desde 4.523 hasta 16.558
                 td.th-1  Desde 14.781 hasta 74.066
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
@@ -136,7 +136,7 @@
               img.mt-3(src="@/assets/curso/images/tema1/img_5.png").m-auto
             .col-12.col-md-6.mb-3.mb-md-0
               h5 Terciario
-              p.mb-0 Son las empresas que ofrecen servicios intangibles a disposición de la comunidad en general. Entre estos, se encuentran la educación, el turismo, salud, finanzas, outsourcing y transporte, entre otros. Los servicios ofertados en este sector tienen la característica principal de ser conocidos y evaluados solo cuando se disfrutan o vivencian.
+              p.mb-0 Son las empresas que ofrecen servicios intangibles a disposición de la comunidad en general. Entre estos, se encuentran la educación, el turismo, salud, finanzas, <i>outsourcing</i> y transporte, entre otros. Los servicios ofertados en este sector tienen la característica principal de ser conocidos y evaluados solo cuando se disfrutan o vivencian.
 
 
         .py-3.py-md-4(titulo="Cuaternario")
@@ -171,7 +171,8 @@
         img.mt-3(src="@/assets/curso/images/tema1/ico_9.svg", style="width: 300px").m-auto
 
 
-    p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
+    p.mb-3 Forma jurídica se refiere a la constitución legal que se realiza de la empresa y en qué tipo de sociedad se convierte la organización al ser legalmente constituida, asumiendo unas características que la identifican y unas responsabilidades legales y fiscales ante el Estado. 
+
 
     .row.justify-content-evenly.align-items-center.p-2
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
@@ -182,7 +183,7 @@
                 p.mb-3  La sociedad es la reunión de personas naturales o jurídicas que unen sus esfuerzos bajo una figura legal constituida mediante escritura pública y cumpliendo con todos los requisitos de ley para su creación, bajo la cual se asigna un nombre que debe quedar instaurado en todos los estamentos relacionados con la constitución de la empresa y que debe declarar con claridad el tipo de responsabilidad a que corresponde. 
                 p.mb-3 Esta figura se denomina persona jurídica, la cual tiene derechos y responsabilidades. Asimismo, puede ser representada judicial y extrajudicialmente.
  
-                p.mb-0 En Colombia, se pueden constituir diferentes tipos de sociedades, tales como: Sociedad Limitada, Empresa Unipersonal, Sociedad Anónima, Sociedad Colectiva, Sociedad por Acciones Simplificada S.A.S., Sociedad en Comandita, entre otras. Cada una de ellas tiene unas 
+                p.mb-0 En Colombia, se pueden constituir diferentes tipos de sociedades, tales como: Sociedad Limitada, Empresa Unipersonal, Sociedad Anónima, Sociedad Colectiva, Sociedad por Acciones Simplificada S.A.S., Sociedad en Comandita, entre otras. Cada una de ellas tiene unas características y responsabilidades diferentes.
 
           .row(titulo='Sociedad Limitada' numero='1')
             .row.justify-content-center.align-items-star
@@ -352,9 +353,9 @@
 
       .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse5.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
-          p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de marketing que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
+          p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de <i>marketing</i> que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
 
-          p.mb-0 Se encarga de planificar la mezcla de marketing en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
+          p.mb-0 Se encarga de planificar la mezcla de <i>marketing</i> en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
 
       .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse6.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
@@ -362,7 +363,7 @@
 
       .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse7.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
-          p En este departamento, se desarrolla el hardware y el software que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
+          p En este departamento, se desarrolla el <i>hardware</i> y el <i>software</i> que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
                           
       .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse8.collapse(data-bs-parent='#MapaGroup01')
         .col-md-10.mb-4 
@@ -451,6 +452,12 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         img.mt-3(src='@/assets/curso/images/tema1/fig_5.svg')
+    Separador
+
+    #t_1_4.titulo-segundo
+      .h2 1.4 matrices diagnosticas 
+
+    p.mb-3 Las matrices diagnósticas han sido diseñadas con el fin de condensar diferentes factores claves de éxito de una organización, para medirlos o evaluarlos desde la realidad de su desempeño y operación empresarial. Ellas son instrumentos poderosos para la gestión empresarial, que permiten recoger información sobre diferentes aspectos de la empresa, para que luego, a través de la aplicación de otras estrategias o simplemente del análisis del conjunto de información, se pueda construir una conclusión. A continuación, se desarrollan las más relevantes.
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
       .py-4.py-md-4.tabs-c__content-item-1(titulo="Matriz FODA")
@@ -482,7 +489,7 @@
           .col-12.col-md-6.mb-3.mb-md-0
             h5 Matriz de  PCI
             p.mb-3 El Perfil de Capacidades Internas (PCI) es un instrumento para realizar un diagnóstico de las organizaciones  que permite evaluar las fortalezas y las debilidades analizadas, donde se reflejan los factores internos que afectan o aportan a su normal funcionamiento.  Su implementación consiste en determinar las áreas estratégicas y los factores críticos de ellas a evaluar, con el fin de aplicar la matriz y realizar un análisis por área, para luego consolidarlo por organización (Pedraza, 2015). 
-            p.mb-3 Es una herramienta para realizar diagnóstico estratégico en una empresa involucrando todos los factores que afectan su operación corporativa. El PCI evalúa cinco categorías, a saber: capacidad directiva, capacidad competitiva, capacidad financiera, capacidad tecnológica y capacidad del talento humano
+            p.mb-3 Es una herramienta para realizar diagnóstico estratégico en una empresa involucrando todos los factores que afectan su operación corporativa. El PCI evalúa cinco categorías, a saber: capacidad directiva, capacidad competitiva, capacidad financiera, capacidad tecnológica y capacidad del talento humano.
             p.mb-0 El perfil de fortalezas y debilidades se representa gráficamente mediante calificaciones de la fortaleza o debilidad con relación a su grado (A M B), para luego ser valorada con respecto a su impacto en la escala de alto (A), medio (M), bajo (B). 
           .col-12.col-md-4.mb-3.mb-md-0
             .row.justify-content-end.align-items-center
@@ -565,7 +572,7 @@
             p 4: respuesta superior, es decir, la empresa está trabajando duro.  
             p 3: respuesta superior a la media, la microempresa está trabajando más que las demás dentro del mismo sector.
             p 2: respuesta media, la microempresa está trabajando lo justo.
-            p 1: respuesta mala, la microempresa no está haciendo nada al respecto                                                                       
+            p 1: respuesta mala, la microempresa no está haciendo nada al respecto.                                                                      
             
           .col-12.col-md-4.mb-3.mb-md-0
             .row.justify-content-end.align-items-center

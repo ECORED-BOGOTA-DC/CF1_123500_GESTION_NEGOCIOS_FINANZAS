@@ -45,6 +45,12 @@ export default {
             titulo: 'Diagnóstico organizacional',
             hash: 't_1_3',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Matrices diagnosticas ',
+            hash: 't_1_4',
+          },
         ],
       },
       {
@@ -140,7 +146,7 @@ export default {
     },
     {
       referencia:
-        ' Decreto 957 de 2019. [Ministerio de Industria, Comercio y Turismo]. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.  Junio 5 de 2019',
+        ' Decreto 957 de 2019. [Ministerio de Industria, Comercio y Turismo]. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.  Junio 5 de 2019.',
       link:
         'https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf',
     },
@@ -218,7 +224,7 @@ export default {
   ],
   complementario: [
     {
-      tema: '1.1. Clasificación',
+      tema: '1.1. Clasificación.',
       referencia:
         'Decreto 957 de 2019. [Ministerio de Industria, Comercio y Turismo]. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.  Junio 5 de 2019.',
       tipo: 'Documento legal - Decreto',
@@ -226,15 +232,15 @@ export default {
         'https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf',
     },
     {
-      tema: '1.2. Clasificación',
+      tema: '1.2. Clasificación.',
       referencia:
-        'Cámara de Comercio de Cúcuta. (s. f.). Consolidado comparativo de sociedade',
+        'Cámara de Comercio de Cúcuta. (s. f.). Consolidado comparativo de sociedades',
       tipo: 'Documento – cuadro comparativo',
       link:
         'https://www.cccucuta.org.co/uploads_descarga/desc_49414aa27e2ee1132e863a9d4d1b8f09.pdf',
     },
     {
-      tema: '1.3. Diagnóstico organizacional',
+      tema: '1.3. Diagnóstico organizacional.',
       referencia:
         'Hoyos, G. (2018). El modelo de las cinco Fuerzas de Porter como instrumento para la adopción de decisiones estratégicas organizacionales: aplicación al sector de la Construcción Naval Militar. [Trabajo de Grado]. Centro Universitario de la Defensa en la Escuela Naval Militar',
       tipo: 'Documento – trabajo de grado',
@@ -329,7 +335,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

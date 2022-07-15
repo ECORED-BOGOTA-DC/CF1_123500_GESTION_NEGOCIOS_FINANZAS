@@ -111,7 +111,7 @@
                   | Documentos de archivo y fuentes gubernamentales.
                 li.mb-4
                   i.fa-folder
-                  | Comunidades online. 
+                  | Comunidades <i>online.</i> 
               h3 Instrumentos de recolección de información cuantitativa
           .col-lg-6
             img(src='@/assets/curso/images/tema2/img_4.png')
@@ -126,7 +126,7 @@
                 | Entrevista.
               li.mb-4
                 i.fa-folder
-                | Cuestionario físico y online.
+                | Cuestionario físico y <i>online.</i> 
               li.mb-4
                 i.fa-folder
                 | Observación cuantitativa.
@@ -135,10 +135,10 @@
                 | Documentos de archivo y fuentes gubernamentales.
               li.mb-4
                 i.fa-folder
-                | Focus group presenciales y online.
+                | <i>Focus group</i> presenciales y <i>online.</i> 
               li.mb-4
                 i.fa-folder
-                | Comunidades online.
+                | Comunidades <i>online.</i> 
               li.mb-4
                 i.fa-folder
                 | Experimentos de laboratorio.
@@ -177,7 +177,7 @@
             | Triangulación y teoría fundamentada. 
           li.mb-4
             i.fa-folder
-            | Comunidades online.
+            | Comunidades <i>online.</i> 
           
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
       
@@ -214,7 +214,7 @@
               .col-lg-12
                 p.mb-3 Es una herramienta principalmente para la recolección de datos cualitativos, aunque se precisa que, de acuerdo con el diseño que se realice, puede ser utilizada para la recolección de datos cuantitativos. Es de uso cotidiano como instrumento para recopilar información debido a su flexibilidad. Las interacciones que se generan en una entrevista pueden presentarse de forma estructurada o semiestructurada para generar ideas y conceptos.
                 p.mb-3 En el diseño de la entrevista, se deben tener en cuenta aspectos como la exhaustividad, el tacto, la precisión, la exactitud y la confidencialidad. Las entrevistas requieren habilidades especializadas por parte del entrevistador, que tendrá que tener una buena relación con el entrevistado para garantizar que realmente se recolectan y transcriban eficazmente un conjunto de datos cualitativos muy detallados y válidos. 
-                p.mb-3 Los tipos de entrevista son: estructurada o formal, no estructurada  o informal, semiestructurada. También se pueden clasificar en: entrevista individual o entrevista grupal o focus group.
+                p.mb-3 Los tipos de entrevista son: estructurada o formal, no estructurada  o informal, semiestructurada. También se pueden clasificar en: entrevista individual o entrevista grupal o <i>Focus group</i>.
                 p.mb-3 En las entrevistas, se usan cuestionarios para la recolección de información, ya sea cualitativa o cuantitativa. Su elaboración debe ser cuidadosa y profesional, de manera que las preguntas no influyan en la respuesta que se espera recibir. 
                 p.mb-3 Este tipo de instrumentos se diseña con preguntas abiertas, donde la respuesta no está condicionada sino que se tiene la facilidad de responder a criterio propio y con su propio lenguaje. También se puede elaborar con preguntas cerradas si el objeto de aplicación del instrumento requiere respuestas precisas, que develen la causa de una situación o raíz de un problema.
 
@@ -259,16 +259,15 @@
                 p.mb-3 Cumple con la función de validar la información obtenida  y consiste en el uso de dos o más aproximaciones en el análisis de un mismo grupo de datos, con el propósito de realizar su validación. Se lleva a cabo comparando el resultado del análisis de datos, usando diferentes técnicas de análisis cualitativo para evaluar en forma similar los resultados disponibles. Sirve para identificar patrones similares y así verificar los hallazgos. Existen los siguientes tipos de triangulación:
                 p.mb-3 La triangulación teórica consiste en el uso de diferentes perspectivas o diferentes tópicos esenciales en la información analizada.
                 p.mb-3  La triangulación metodológica puede implicar una triangulación dentro de métodos que consiste en la combinación de dos o más resultados de recolecciones de datos con similitudes aproximadas en el mismo estudio, es decir, un mismo aspecto estudiado a partir de dos instrumentos de recolección de información  diferentes. Cada estudio se debe codificar y analizar separadamente, para luego compararlos con el fin de validar los hallazgos.
-                p.mb-0 Seleccionar los documentos más pertinentes para el propósito u objeto de la investigación.
                
 
-          .tarjeta.back-tab.px-5.py-4(titulo="Comunidades online")
+          .tarjeta.back-tab.px-5.py-4(titulo="Comunidades <i>online</i> ")
             .row.px-2.py-2.justify-content-center.align-items-star
               .col-lg-12
-                p.mb-3 Llamadas también Insight Community, herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés y así conocer sus comentarios, observaciones y sugerencias, por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
+                p.mb-3 Llamadas también <i>Insight Community</i>, herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés y así conocer sus comentarios, observaciones y sugerencias, por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
                 p.mb-0 Este instrumento es muy valorado por las empresas, pues a través de él las organizaciones encuentran información inmediata, lo cual les permite acceder al amplio conocimiento que poseen los participantes.
 
-      p.mb-5 Las comunidades online son una inversión productiva para las empresas porque generan un espacio adecuado para recolectar información al instante y generar relaciones más estrechas que logran llegar a la fidelidad. Existen diferentes tipos de comunidades online.
+      p.mb-5 Las comunidades <i>online</i>  son una inversión productiva para las empresas porque generan un espacio adecuado para recolectar información al instante y generar relaciones más estrechas que logran llegar a la fidelidad. Existen diferentes tipos de comunidades <i>online.</i> 
 
       .row.mb-3
         .col-lg-4(data-aos="fade-left") 
@@ -289,7 +288,7 @@
             p.mb-0 Son clientes de la marca que participan en diferentes actividades, como fotos o lluvias de ideas sobre nuevos productos y servicios.
 
     h3.mb-3 Técnica e instrumentos de recolección de información
-    p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
+    p.mb-3 El siguiente gráfico ejemplifica de forma genérica cómo seleccionar el instrumento de acuerdo con la técnica a implementar.  
     
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
@@ -329,7 +328,7 @@
       .col-lg-10(data-aos="zoom-in-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 8
-          span Características de los grupos de interés o stakeholders
+          span Características de los grupos de interés o <i>stakeholders</i>
         img.mt-3(src='@/assets/curso/images/tema2/fig_3.svg')
     
     .row.aling.my-5   
@@ -368,7 +367,7 @@
       .col-lg-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema2/img_10.svg')
       .col-lg-7(data-aos="fade-right") 
-        p.mb-3 A través del análisis estratégico de los grupos de interés, es posible identificar los tipos de participantes que lo integran, lo cual es fundamental para que la organización potencialice su existencia para su beneficio, de acuerdo con los objetivos que estos hayan trazado. Los participantes pueden pertenecer a diferentes grupos de interés dependiendo de sus objetivos, los cuales son momentáneos, por lo que se hace necesario realizar la valoración de los mismos para reconocerlos en función de su importancia y valorar los posibles impactos sobre los objetivos de la empresa. Esta valoración es posible realizarla gracias al mapeo de stakeholders o grupos de interés.
+        p.mb-3 A través del análisis estratégico de los grupos de interés, es posible identificar los tipos de participantes que lo integran, lo cual es fundamental para que la organización potencialice su existencia para su beneficio, de acuerdo con los objetivos que estos hayan trazado. Los participantes pueden pertenecer a diferentes grupos de interés dependiendo de sus objetivos, los cuales son momentáneos, por lo que se hace necesario realizar la valoración de los mismos para reconocerlos en función de su importancia y valorar los posibles impactos sobre los objetivos de la empresa. Esta valoración es posible realizarla gracias al mapeo de <i>stakeholders</i> o grupos de interés.
 
         p.mb-0 Es una representación gráfica del tipo de relación existente entre los grupos de interés y el proyecto u organización. Se elabora  con el fin de comprender los diversos niveles de influencia y su relevancia en la empresa. Asimismo, permite realizar monitoreo de la evolución de todas las relaciones a largo plazo y evidencia la influencia que los grupos de interés ejercen sobre la organización o que la empresa ejerce sobre ellos, tal como se presenta en la figura.
     
@@ -376,7 +375,7 @@
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 10
-          span Mapa de stakeholders
+          span Mapa de <i>stakeholders</i>
         img.mt-3(src='@/assets/curso/images/tema2/fig_5.svg')
     
     .row.aling.my-5   
