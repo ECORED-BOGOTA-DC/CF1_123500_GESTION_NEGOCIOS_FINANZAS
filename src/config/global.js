@@ -117,30 +117,30 @@ export default {
   referencias: [
     {
       referencia:
-        'Amador, A. y Oviedo G. (2006). Análisis de competitividad del biodiesel colombiano. Instituto Tecnológico y de Estudios Superiores de Monterrey. ',
+        'Amador, A. y Oviedo G. (2006). Análisis de competitividad del biodiesel colombiano. Instituto Tecnológico y de Estudios Superiores de Monterrey.',
       link:
         'https://repository.unab.edu.co/bitstream/handle/20.500.12749/1973/2006_Tesis_Amador_Andrea.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Bravo, L., Ramos, P., Tejada, A. y Valenzuela, A. (2019). Perspectiva teórica del diagnóstico organizacional. Revista Venezolana de Gerencia, 24(88), p. 1316 – 1328. ',
+        'Bravo, L., Ramos, P., Tejada, A. y Valenzuela, A. (2019). Perspectiva teórica del diagnóstico organizacional. Revista Venezolana de Gerencia, 24(88), p. 1316 – 1328.',
       link: 'https://www.redalyc.org/journal/290/29062051021/html/',
     },
     {
       referencia:
-        'Cardoso, M. y Poveda, N. (2021). Diagnóstico Organizacional y Plan de Mejoramiento para la Microempresa Modas Milenio del municipio de La Mesa, Cundinamarca [Trabajo de grado]. Universidad de Cundinamarca',
+        'Cardoso, M. y Poveda, N. (2021). Diagnóstico Organizacional y Plan de Mejoramiento para la Microempresa Modas Milenio del municipio de La Mesa, Cundinamarca [Trabajo de grado]. Universidad de Cundinamarca.',
       link:
         'https://repositorio.ucundinamarca.edu.co/bitstream/handle/20.500.12558/3761/Diagn%c3%b3stico%20organizacional%20y%20plan%20de%20mejoramiento%20para%20la%20microempresa%20modas%20milenio%20del%20municipio%20de%20La%20Mesa-%20Cundinamarca.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Celaya, R., González, N., Ramírez, R. y Valenzuela, C. (2010). Diagnóstico organizacional: una mirada hacia el futuro. Instituto Tecnológico de Sonora [ITSON]. ',
+        'Celaya, R., González, N., Ramírez, R. y Valenzuela, C. (2010). Diagnóstico organizacional: una mirada hacia el futuro. Instituto Tecnológico de Sonora [ITSON].',
       link:
         'https://www.itson.mx/publicaciones/pacioli/Documents/no70/43b-diagnostico_organizacional_una_mirada_hacia_el_futuro_noviembre_2010_corregido.pdf ',
     },
     {
       referencia:
-        'Código de Comercio. (2020). Artículo 461. Definición de la sociedad de economía mixta',
+        'Código de Comercio. (2020). Artículo 461. Definición de la sociedad de economía mixta.',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr014.html#:~:text=ART%C3%8DCULO%20461.,salvo%20disposici%C3%B3n%20legal%20en%20contrario',
     },
@@ -157,7 +157,7 @@ export default {
         ' https://www.unilibrebaq.edu.co/unilibrebaq/images/CEUL/mod3recoleccioninform.pdf',
     },
     {
-      referencia: 'Gerencie.com. (2022). Sociedad Unipersonal',
+      referencia: 'Gerencie.com. (2022). Sociedad Unipersonal.',
       link:
         ' https://www.gerencie.com/las-sociedades-unipersonales-no-existen-en-colombia.html',
     },
@@ -179,13 +179,13 @@ export default {
     },
     {
       referencia:
-        'Robichaud, F. (2018). Mapeo de grupos de interés: Cómo las herramientas de mapeo de grupos de interés mejoran la gestión de sus grupos de interés. Borealis',
+        'Robichaud, F. (2018). Mapeo de grupos de interés: Cómo las herramientas de mapeo de grupos de interés mejoran la gestión de sus grupos de interés. Borealis.',
       link:
         'https://www.boreal-is.com/es/blog/mapeo-partes-interesadas-grupos-interes/ ',
     },
     {
       referencia:
-        'Ramírez, C. (2009) Fundamentos de Administración. Ecoe Ediciones',
+        'Ramírez, C. (2009) Fundamentos de Administración. Ecoe Ediciones.',
       link:
         'https://books.google.com.co/books?hl=es&lr=&id=zXs5DwAAQBAJ&oi=fnd&pg=PP1&dq=Libros+acerca+de+administraci%C3%B3n+y+concepto+de+empresa&ots=sIinLGLTsA&sig=_LpcfRYwDoHZLbx5nry9LKpSYIA&redir_esc=y#v=onepage&q=Libros%20acerca%20de%20administraci%C3%B3n%20y%2',
     },
