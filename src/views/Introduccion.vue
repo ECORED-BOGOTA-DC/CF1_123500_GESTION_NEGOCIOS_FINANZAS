@@ -33,7 +33,7 @@
         img.mt-3(src='@/assets/curso/images/tema1/img_1_intro.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
 
 
-    .row.aling.my-5   
+    .row.aling.my-3   
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom-1.p-4.mb-4.p-4
           .row.justify-content-around.align-items-center
@@ -43,27 +43,9 @@
                   p Este componente formativo, además de desarrollar las temáticas descritas anteriormente, cerrará exponiendo cada uno de los instrumentos de recolección de información que son fundamentales para realizar diagnósticos o investigaciones orientadas a la implementación de un nuevo proyecto. 
 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .bloque-texto-g.color-custom-2.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
-          .bloque-texto-g__img(data-aos="fade-right")(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_2_intro.png')})`}"
-          )
-          .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
-            p.mb-0 Todo lo anterior permite aportar al mejoramiento de la empresa desde su función, con el fin de agilizar procesos, dar respuestas oportunas y tener a la mano información de primera mano de los diferentes departamentos, así como de los clientes, lo cual es crucial para la toma de decisiones y definir el futuro inmediato, si se han presentado imprevistos, o a mediano y largo plazo,  si el entorno así lo permite .
 
-    .bloque-texto-a.color-custom-2.p-md-0.mb-5.d-block.d-lg-none
-      .row.m-4.align-items-center.justify-content-between
-        .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5.my-5
-            p Todo lo anterior permite aportar al mejoramiento de la empresa desde su función, con el fin de agilizar procesos, dar respuestas oportunas y tener a la mano información de primera mano de los diferentes departamentos, así como de los clientes, lo cual es crucial para la toma de decisiones y definir el futuro inmediato, si se han presentado imprevistos, o a mediano y largo plazo,  si el entorno así lo permite .
-        .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
-          figure
-            img(src='@/assets/curso/images/tema1/img_2_intro.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
-
-
-
-
+    p.mb-0 Todo lo anterior permite aportar al mejoramiento de la empresa desde su función, con el fin de agilizar procesos, dar respuestas oportunas y tener a la mano información de primera mano de los diferentes departamentos, así como de los clientes, lo cual es crucial para la toma de decisiones y definir el futuro inmediato, si se han presentado imprevistos, o a mediano y largo plazo,  si el entorno así lo permite .
+  
 
 
 

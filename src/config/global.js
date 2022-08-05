@@ -6,6 +6,28 @@ export default {
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/images/header/cohete.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/images/header/mano.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/images/header/pesos.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/images/header/tabla.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/images/header/visto.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

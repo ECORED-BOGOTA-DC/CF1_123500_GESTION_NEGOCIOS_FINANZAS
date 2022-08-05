@@ -1,3 +1,39 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 20%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 50%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 20%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 70%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 80%
+
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+  
+  
 .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat 
@@ -12,11 +48,13 @@
   position: relative;
   background-color: #3AE3FE
 
-.h1, .titulo-principal__numero span, .h5, .h6 
+
+.h1, .titulo-principal__numero span, .titulo-principal__numero span, .h5, .h6 
   font-family: "Roboto", sans-serif
   font-weight: 900
   line-height: 1.2
-  color: #FFF
+  color: #000
+
 
 .container-top
   border-radius: 0px 0px 0 0
@@ -200,10 +238,10 @@
   background-image:  url('../assets/curso/images/tema1/bg-gris.svg')
   background-size: cover
   background-repeat: no-repeat
+
 .bg-rosa
-  background-image:  url('../assets/curso/images/tema1/bg-rosa.svg')
-  background-size: cover
-  background-repeat: no-repeat
+  background-color: #FEF5E5
+
 .tabs-c.color-acento-contenido .tabs-c__tab--active
   border-bottom-color: #3AE3FE!important
   span 

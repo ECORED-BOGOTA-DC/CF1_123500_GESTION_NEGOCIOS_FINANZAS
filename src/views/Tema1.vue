@@ -41,8 +41,8 @@
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-3(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/img_2.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+      .col-lg-6(data-aos="fade-left") 
+        img.mt-3(src='@/assets/curso/images/tema1/img_2.png')
 
       .col-lg-6(data-aos="fade-right") 
 
@@ -79,7 +79,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          h5 Figura 3
+          h5 Tabla 1
           span   Clasificación del tamaño empresarial según el criterio único de ingresos por actividades ordinarias
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -112,6 +112,7 @@
         .col-lg-4(data-aos="zoom-in-down")
           img.mt-3(src="@/assets/curso/images/tema1/ico_7.svg").m-auto
 
+      p.mb-3 Las empresas también pueden ser clasificadas de acuerdo a su actividad y sector al que pertenecen, tal como se aprecia en el siguiente recurso:
 
       TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
         .py-4.py-md-4(titulo="Primario")
@@ -161,8 +162,8 @@
             p.mb-0 “Las sociedades de economía mixta se sujetan a las reglas del derecho privado y a la jurisdicción ordinaria, salvo disposición legal en contrario” (Art. 461 del Código de Comercio, 2020).
 
     
-        .col-lg-4(data-aos="fade-left") 
-          img.mt-3(src='@/assets/curso/images/tema1/img_7.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        .col-lg-6(data-aos="fade-left") 
+          img.mt-3(src='@/assets/curso/images/tema1/img_7.png')
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
 
@@ -290,84 +291,65 @@
       .h2 1.2 Áreas funcionales
 
     p.mb-5 Cuando se mencionan áreas funcionales de la empresa, se hace referencia a todas las unidades, áreas o departamentos que son necesarios para el funcionamiento u operación de la organización, entre las cuales se dividen las responsabilidades, bien sea por funciones o especialidad. A continuación, se exponen las principales.
- 
-    #MapaGroup01.mb-5(data-aos="fade-down")
-      .row.justify-content-center
-        .col-md-12
-          .row.justify-content-center.align-items-end.fondo-3
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
-                img.ChangeSRC01(src='@/assets/curso/images/tema1/ico_tab_1.svg', alt='botón 1')
-              img.w-25.mx-auto.mb-0.multi-collapse1.collapse.show(src='@/assets/curso/images/tema1/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3.absoluta
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
-                .indicador--click(v-if="mostrarIndicador")
-                img.ChangeSRC02(src='@/assets/curso/images/tema1/ico_tab_2.svg', alt='botón 2' )
-              img.w-25.mx-auto.mb-0.multi-collapse2.collapse(src='@/assets/curso/images/tema1/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
-                img.ChangeSRC03(src='@/assets/curso/images/tema1/ico_tab_3.svg', alt='botón 3' )
-              img.w-25.mx-auto.mb-0.multi-collapse3.collapse(src='@/assets/curso/images/tema1/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='false' aria-controls='.multi-collapse2')
-                img.ChangeSRC04(src='@/assets/curso/images/tema1/ico_tab_4.svg', alt='botón 4' )
-              img.w-25.mx-auto.mb-0.multi-collapse4.collapse(src='@/assets/curso/images/tema1/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='false' aria-controls='.multi-collapse2')  
-                img.ChangeSRC05(src='@/assets/curso/images/tema1/ico_tab_5.svg', alt='botón 5' )
-              img.w-25.mx-auto.mb-0.multi-collapse5.collapse(src='@/assets/curso/images/tema1/tema1-1-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse6' aria-expanded='false' aria-controls='.multi-collapse2')  
-                img.ChangeSRC06(src='@/assets/curso/images/tema1/ico_tab_6.svg', alt='botón 6' )
-              img.w-25.mx-auto.mb-0.multi-collapse6.collapse(src='@/assets/curso/images/tema1/tema1-2-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01')
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse7' aria-expanded='false' aria-controls='.multi-collapse2') 
-                img.ChangeSRC07(src='@/assets/curso/images/tema1/ico_tab_7.svg', alt='botón 7' )
-              img.w-25.mx-auto.mb-0.multi-collapse7.collapse(src='@/assets/curso/images/tema1/tema1-2-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01') 
-            .col-md.col-3
-              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse8' aria-expanded='false' aria-controls='.multi-collapse2') 
-                img.ChangeSRC07(src='@/assets/curso/images/tema1/ico_tab_8.svg', alt='botón 8' )
-              img.w-25.mx-auto.mb-0.multi-collapse8.collapse(src='@/assets/curso/images/tema1/tema1-2-ind.svg', alt='indicador 1' data-bs-parent='#MapaGroup01') 
 
-      .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4          
-          p.mb-3  El área de Dirección en una organización es conocida como alta gerencia, gerencia, dirección, administración, entre otros. En ella, se define el rumbo de la empresa, es decir, se establece el qué quiere lograr a través de su operación  u objetivos organizacionales, se toman decisiones importantes para el rumbo de la misma y se dirigen las operaciones que debe desarrollar para alcanzar lo planteado. 
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Dirección" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Dirección
+            p.mb-3  El área de Dirección en una organización es conocida como alta gerencia, gerencia, dirección, administración, entre otros. En ella, se define el rumbo de la empresa, es decir, se establece el qué quiere lograr a través de su operación  u objetivos organizacionales, se toman decisiones importantes para el rumbo de la misma y se dirigen las operaciones que debe desarrollar para alcanzar lo planteado. 
 
-          p.mb-0 Esta área funcional dentro de la organización también se reconoce como la primera etapa del proceso administrativo, lo que configura el liderazgo y diseño de la empresa, por lo cual tiene una estrecha relación con la última etapa del proceso administrativo, denominada control, que en síntesis es donde se evalúa el desempeño organizacional de la medición de resultados y se toman nuevas decisiones para iniciar de nuevo un enfoque, camino o estrategia.                                                                                                                                                                             
-
-      .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p.mb-3  Esta área cobra gran importancia por la magnitud de su responsabilidad frente al logro de objetivos. Se dedica a  buscar, reclutar, seleccionar, contratar, entrenar y formar el talento humano de la organización. También, define las estrategias para que la productividad de la empresa sea al máximo, y esto va ligado a los planes de beneficios orientados al personal o equipo de trabajo de toda la organización.
-
-          p.mb-0 Adicionalmente, es responsable de todo lo relacionado con las actividades de tipo administrativo, la comunicación interna, la capacitación y los aspectos legales del personal a cargo, entre otros.
+            p.mb-0 Esta área funcional dentro de la organización también se reconoce como la primera etapa del proceso administrativo, lo que configura el liderazgo y diseño de la empresa, por lo cual tiene una estrecha relación con la última etapa del proceso administrativo, denominada control, que en síntesis es donde se evalúa el desempeño organizacional de la medición de resultados y se toman nuevas decisiones para iniciar de nuevo un enfoque, camino o estrategia.
+        
+          .col-md-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_tab_1.png', alt='Texto que describa la imagen')
       
-      .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p Esta área está ligada directamente a la razón de ser de la empresa o misión. En ella se elaboran o producen los bienes y servicios que la empresa comercializa, esto ocurre a través de la transformación de la materia prima en productos terminados. Además, es responsable de asegurar el óptimo aprovechamiento de los recursos en el proceso productivo, se encarga de controlar la calidad de los productos elaborados con el fin de cumplir con las expectativas del cliente y de adquirir los insumos en las condiciones y calidad requeridas, así como los mejores  proveedores.Esta área está ligada directamente a la razón de ser de la empresa o misión. En ella se elaboran o producen los bienes y servicios que la empresa comercializa, esto ocurre a través de la transformación de la materia prima en productos terminados. Además, es responsable de asegurar el óptimo aprovechamiento de los recursos en el proceso productivo, se encarga de controlar la calidad de los productos elaborados con el fin de cumplir con las expectativas del cliente y de adquirir los insumos en las condiciones y calidad requeridas, así como los mejores  proveedores.
-      
-
-      .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p En el área de finanzas, se registran todas las operaciones que realiza la empresa. Tiene a su cargo todos los movimientos de dinero que se producen dentro y fuera de la misma. En otras palabras, esta área es responsable de los recursos monetarios y financieros que posee la empresa. Aquí se maximizan los recursos obtenidos a través de las inversiones y se realizan los pagos por los diferentes conceptos requeridos para garantizar su operación, como arrendamientos, publicidad, colaboradores y proveedores. En esta área, se elaboran los informes financieros y se cumple con las obligaciones fiscales. 
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Recursos humanos" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Recursos humanos
+            p.mb-3 Esta área cobra gran importancia por la magnitud de su responsabilidad frente al logro de objetivos. Se dedica a  buscar, reclutar, seleccionar, contratar, entrenar y formar el talento humano de la organización. También, define las estrategias para que la productividad de la empresa sea al máximo, y esto va ligado a los planes de beneficios orientados al personal o equipo de trabajo de toda la organización.
+            p.mb-0 Adicionalmente, es responsable de todo lo relacionado con las actividades de tipo administrativo, la comunicación interna, la capacitación y los aspectos legales del personal a cargo, entre otros.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_tab_2.png', alt='Texto que describa la imagen')
   
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Producción" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Producción
+            p.mb-0 Esta área está ligada directamente a la razón de ser de la empresa o misión. En ella se elaboran o producen los bienes y servicios que la empresa comercializa, esto ocurre a través de la transformación de la materia prima en productos terminados. Además, es responsable de asegurar el óptimo aprovechamiento de los recursos en el proceso productivo, se encarga de controlar la calidad de los productos elaborados con el fin de cumplir con las expectativas del cliente y de adquirir los insumos en las condiciones y calidad requeridas, así como los mejores  proveedores.
+        
+          .col-md-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_tab_3.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-center.tarjeta.bg-rosa.py-4.multi-collapse5.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de <i>marketing</i> que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
 
-          p.mb-0 Se encarga de planificar la mezcla de <i>marketing</i> en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Finanzas o contabilidad" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Finanzas o contabilidad
+            p.mb-0 En el área de finanzas, se registran todas las operaciones que realiza la empresa. Tiene a su cargo todos los movimientos de dinero que se producen dentro y fuera de la misma. En otras palabras, esta área es responsable de los recursos monetarios y financieros que posee la empresa. Aquí se maximizan los recursos obtenidos a través de las inversiones y se realizan los pagos por los diferentes conceptos requeridos para garantizar su operación, como arrendamientos, publicidad, colaboradores y proveedores. En esta área, se elaboran los informes financieros y se cumple con las obligaciones fiscales.
+        
+          .col-md-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_tab_4.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse6.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p En esta área, se originan nuevas ideas de productos, así como la mejora en las prácticas y procesos tanto de producción como de comercialización.
+        
+      
+      .py-4.py-md-5.bg-rosa.p-4(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Marketing y ventas
+            p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de marketing que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
 
-      .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse7.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p En este departamento, se desarrolla el <i>hardware</i> y el <i>software</i> que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
-                          
-      .row.justify-content-center.tarjeta.bg-gris.py-4.multi-collapse8.collapse(data-bs-parent='#MapaGroup01')
-        .col-md-10.mb-4 
-          p Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
+            p.mb-0 Se encarga de planificar la mezcla de <i>marketing</i> en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
+        
+          .col-md-4
+            figure
+              img(src='@/assets/curso/images/tema1/img_tab_5.png', alt='Texto que describa la imagen')
+      
 
     Separador
 
@@ -379,32 +361,41 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    p.mb-3 Algunas causas que dan origen al diagnóstico organizacional, de acuerdo con Celaya (2010), son:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+      h5 Figura 4
+      span  Causas del diagnóstico organizacional
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-left") 
-        img.my-3(src='@/assets/curso/images/tema1/fig_4.svg')
+      .col-lg-12(data-aos="fade-left") 
+        img.my-3(src='@/assets/curso/images/tema1/fig_4_1.svg')
 
-      .col-lg-4(data-aos="fade-right") 
-        .row.align-items-center.justify-content-center.mb-5
-          img.my-3.align(src='@/assets/curso/images/tema1/ico_fig.svg',  alt='', style="width:120px; display:block; margin:auto 0 ;")
-          p.mb-3 En cualquiera de estas causas, el diagnóstico organizacional se hace necesario, debido a que, cuando una organización nace, se estructura con la medida justa de procesos y personal para atender la demanda de ese momento, pero cuando ella empieza su crecimiento, los procesos, el personal e incluso la infraestructura pueden ser insuficientes. 
-
-          p.mb-3 De igual forma, sucede cuando una organización se ha deteriorado, quiere decir que no ha realizado renovación en ningún aspecto durante su trayectoria en el mercado, por lo cual es posible que tienda a desaparecer, pues puede ser que hasta su producto y estrategias sean obsoletas. 
-
-          p.mb-0 También se da cuando la organización ha asumido cambios importantes, requiere de la aplicación de esta herramienta con el fin de identificar el impacto que estas variaciones han tenido en las diferentes áreas de la empresa o prevenir las modificaciones que pudieran ser generadas por la evolución que se implementará.
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-0
-
-    .row.aling.my-2(data-aos="zoom-in-right")   
-      .col-lg-10(data-aos="zoom-in-down")
-        .cajon.color-custom-1.p-4.mb-4.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-12
+    .row.align-items-center.aling.my-3
+      .col-lg-12(data-aos="zoom-in-down")
+         .cajon.color-custom-1.p-4.mb-4.p-4
+          .row.justify-content-center.align-items-center
+            .col
               .row.justify-content-between.align-items-center
+                .col-lg-2
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_fig.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
-                  p.mb-3  De otra parte, cuando la organización está inmersa en un entorno bastante complejo, es necesario que mantenga cierta cercanía con ese grado de complejidad, de manera que, al incrementar esa misma complejidad en el entorno, es decir, cambios de gobierno o cambio de política ,entre otros, estará obligada a aumentar su complejidad interna, en otras palabras, a desarrollar mayor fortaleza en los procesos, o contracción de la producción, si es el caso; en fin, diferentes cambios drásticos que deba afrontar, para lo cual requiere estar preparada y lo cual genera la habilidad de adaptación constante en congruencia con los cambios que se presentan en el contexto.
+                  p.mb-1.text En cualquiera de estas causas, el diagnóstico organizacional se hace necesario, debido a que, cuando una organización nace, se estructura con la medida justa de procesos y personal para atender la demanda de ese momento, pero cuando ella empieza su crecimiento, los procesos, el personal e incluso la infraestructura pueden ser insuficientes. 
 
-                  p.mb-0 De ahí, la importancia de trabajar de la mano con su talento humano, pues, al construir un sentido de pertenencia sólido, se crea un clima organizacional sin fronteras, permitiendo el avance constante hacia nuevas tendencias y nuevos retos que, al asumirlos, generan crecimiento para ambas partes.
+      p.mb-3 De igual forma, sucede cuando una organización se ha deteriorado, quiere decir que no ha realizado renovación en ningún aspecto durante su trayectoria en el mercado, por lo cual es posible que tienda a desaparecer, pues puede ser que hasta su producto y estrategias sean obsoletas. 
+
+      p.mb-0 También se da cuando la organización ha asumido cambios importantes, requiere de la aplicación de esta herramienta con el fin de identificar el impacto que estas variaciones han tenido en las diferentes áreas de la empresa o prevenir las modificaciones que pudieran ser generadas por la evolución que se implementará.
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-0
+    .row.align-items-center.justify-content-center.mb-3
+      .col-lg-5(data-aos="fade-left") 
+        img.mt-3(src='@/assets/curso/images/tema1/img.png')
+      .col-lg-5(data-aos="fade-right") 
+
+          p.mb-3  De otra parte, cuando la organización está inmersa en un entorno bastante complejo, es necesario que mantenga cierta cercanía con ese grado de complejidad, de manera que, al incrementar esa misma complejidad en el entorno, es decir, cambios de gobierno o cambio de política ,entre otros, estará obligada a aumentar su complejidad interna, en otras palabras, a desarrollar mayor fortaleza en los procesos, o contracción de la producción, si es el caso; en fin, diferentes cambios drásticos que deba afrontar, para lo cual requiere estar preparada y lo cual genera la habilidad de adaptación constante en congruencia con los cambios que se presentan en el contexto.
+
+          p.mb-0 De ahí, la importancia de trabajar de la mano con su talento humano, pues, al construir un sentido de pertenencia sólido, se crea un clima organizacional sin fronteras, permitiendo el avance constante hacia nuevas tendencias y nuevos retos que, al asumirlos, generan crecimiento para ambas partes.
+                  
 
     p.mb-3 Para realizar el diagnóstico organizacional se requiere de información ya disponible o de nueva información suministrada mediante los antecedentes, por ello, es  imprescindible definir un parámetro que facilite hacer relevantes algunos elementos y descartar otros para acentuar los de mayor trascendencia y definir con claridad la coyuntura actual de la organización, como son las dificultades en la actualidad.
 
