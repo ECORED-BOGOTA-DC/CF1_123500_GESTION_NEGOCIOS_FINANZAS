@@ -9,13 +9,38 @@
 
     p.mb-3 La empresa, desde su concepto, se puede abarcar desde distintas perspectivas, que, al leerlas, de alguna forma se complementan. Para este caso en particular, se expondrán algunas de ellas, lo que permitirá construir una definición propia de la misma.
 
-    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-      h5 Figura 1
-      span Definiciones de empresa
-
-    .col-lg-12(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/fig_1.svg')
-
+ 
+    h3 Definiciones de empresa
+    
+    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
+      SlyderA
+        .row.justify-content-center.align-items-center.p-5
+          .col-12.col-md-3.mb-3.mb-md-0
+            img.mt-3(src="@/assets/curso/images/tema1/ico_new_1.svg",  alt='', style="width:200px; display:block; margin:auto 0 ;").mb-3
+          .col-12.col-md-9.mb-3.mb-md-0
+            .bloque-texto-f.color-custom-11.pt-4.px-5.mb-5
+              .bloque-texto-f__comillas
+                i.fas.fa-quote-left
+                i.fas.fa-quote-right
+              h4.text-regular.bloque-texto-f__texto.text-center Acción ardua que un individuo o grupo social de emprendedores realiza para llevar a cabo un intento o designio mediante la administración del capital y el trabajo coordinado para producir bienes y servicios con el fin de satisfacer las necesidades de un tercero conocido como cliente, usuario o comunidad.  (Ramírez, 2009).
+        .row.justify-content-center.align-items-center.p-5
+          .col-12.col-md-3.mb-3.mb-md-0
+            img.mt-3(src="@/assets/curso/images/tema1/ico_new_1.svg",  alt='', style="width:200px; display:block; margin:auto 0 ;").mb-3
+          .col-12.col-md-9.mb-3.mb-md-0
+            .bloque-texto-f.color-custom-11.pt-4.px-5.mb-5
+              .bloque-texto-f__comillas
+                i.fas.fa-quote-left
+                i.fas.fa-quote-right
+              h4.text-regular.bloque-texto-f__texto.text-center  “Unidad económica autónoma organizada para combinar un conjunto de factores de producción con vista a la producción de bienes o la prestación de servicios para el mercado” (Matiz, 2009).
+        .row.justify-content-center.align-items-center.p-5
+          .col-12.col-md-3.mb-3.mb-md-0
+            img.mt-3(src="@/assets/curso/images/tema1/ico_new_1.svg",  alt='', style="width:200px; display:block; margin:auto 0 ;").mb-3
+          .col-12.col-md-9.mb-3.mb-md-0
+            .bloque-texto-f.color-custom-11.pt-4.px-5.mb-5
+              .bloque-texto-f__comillas
+                i.fas.fa-quote-left
+                i.fas.fa-quote-right
+              h4.text-regular.bloque-texto-f__texto.text-center  Las empresas son una fuente de ingresos para trabajadores, proveedores, gobierno y empresarios, promueven el desarrollo económico de la sociedad, contribuyen al sostenimiento de servicios públicos, representan un medio para la realización o satisfacción personal, y fomentan la capacitación y el desarrollo de habilidades, así como la inversión y la formación de capital (Münch, 2004).
 
     .row.aling.my-5   
       .col-lg-12(data-aos="zoom-in-down")
@@ -55,7 +80,7 @@
       span  Características de la empresa
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-left") 
+      .col-lg-8(data-aos="fade-left") 
           img.mt-3(src='@/assets/curso/images/tema1/fig_2.svg')
 
 
@@ -67,10 +92,9 @@
 
     p.mb-3 La clasificación o tipologías de las empresas tiene su origen en determinados criterios. A continuación, se desarrolla cada uno de ellos.
 
-
-    .row.align-items-center.mb-5
-      .col-lg-3(data-aos="zoom-in-down")
-        img.mt-3(src="@/assets/curso/images/tema1/ico_1.svg", style="width: 300px").m-auto
+    .row.mb-5.ps-2(data-aos="zoom-in-down")
+      .col-lg-4.bg-color-1.px-3.py-1
+        .h4.mb-0.text-white Tamaño
 
 
     p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
@@ -108,9 +132,11 @@
                 td.th-1  Desde 14.781 hasta 74.066
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
-      .row.align-items-center.mb-5
-        .col-lg-4(data-aos="zoom-in-down")
-          img.mt-3(src="@/assets/curso/images/tema1/ico_7.svg").m-auto
+
+      .row.mb-5.ps-2(data-aos="zoom-in-down")
+        .col-lg-4.bg-color-2.px-3.py-1
+          .h4.mb-0.text-white Actividad y sector al que pertenecen
+    
 
       p.mb-3 Las empresas también pueden ser clasificadas de acuerdo a su actividad y sector al que pertenecen, tal como se aprecia en el siguiente recurso:
 
@@ -149,9 +175,9 @@
                 p.mb-0 Son las actividades intelectuales asociadas con el gobierno, la cultura, las bibliotecas, la investigación científica, la educación y la tecnología de la información.
                 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
-      .row.align-items-center.mb-5
-        .col-lg-3(data-aos="zoom-in-down")
-          img.mt-3(src="@/assets/curso/images/tema1/ico_8.svg").m-auto
+      .row.mb-5.ps-2(data-aos="zoom-in-down")
+        .col-lg-4.bg-color-3.px-3.py-1
+          .h4.mb-0.text-white Origen de capital
 
 
       .row.align-items-center.justify-content-center.mb-3
@@ -166,10 +192,9 @@
           img.mt-3(src='@/assets/curso/images/tema1/img_7.png')
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
-
-    .row.align-items-center.mb-5
-      .col-lg-3(data-aos="zoom-in-down")
-        img.mt-3(src="@/assets/curso/images/tema1/ico_9.svg", style="width: 300px").m-auto
+    .row.mb-5.ps-2(data-aos="zoom-in-down")
+        .col-lg-4.bg-color-4.px-3.py-1
+          .h4.mb-0.text-white Según su forma jurídica
 
 
     p.mb-3 Forma jurídica se refiere a la constitución legal que se realiza de la empresa y en qué tipo de sociedad se convierte la organización al ser legalmente constituida, asumiendo unas características que la identifican y unas responsabilidades legales y fiscales ante el Estado. 
@@ -238,7 +263,7 @@
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom-1.p-4.mb-4.p-4
           .row.justify-content-around.align-items-center
-            .col-lg-12
+            .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3 Empresa de una persona o Empresa unipersonal
@@ -250,7 +275,7 @@
 
 
     .row.align-items-center.aling.my-3
-      .col-lg-10(data-aos="zoom-in-down")
+      .col-lg-8(data-aos="zoom-in-down")
         .tarjeta.color-custom-4.p-4.mb-5
           .row.justify-content-center.align-items-center
             .col
@@ -269,7 +294,7 @@
 
 
     .row.align-items-center.aling.my-3
-      .col-lg-10(data-aos="zoom-in-down")
+      .col-lg-8(data-aos="zoom-in-down")
         .tarjeta.color-custom-5.p-4.mb-5
           .row.justify-content-center.align-items-center
             .col
@@ -293,7 +318,7 @@
     p.mb-5 Cuando se mencionan áreas funcionales de la empresa, se hace referencia a todas las unidades, áreas o departamentos que son necesarios para el funcionamiento u operación de la organización, entre las cuales se dividen las responsabilidades, bien sea por funciones o especialidad. A continuación, se exponen las principales.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5.bg-rosa.p-4(titulo="Dirección" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Dirección" :icono="require('@/assets/curso/images/tema1/icon.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Dirección
@@ -305,7 +330,7 @@
             figure
               img(src='@/assets/curso/images/tema1/img_tab_1.png', alt='Texto que describa la imagen')
       
-      .py-4.py-md-5.bg-rosa.p-4(titulo="Recursos humanos" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Recursos humanos" :icono="require('@/assets/curso/images/tema1/icon_2.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Recursos humanos
@@ -315,7 +340,7 @@
             figure
               img(src='@/assets/curso/images/tema1/img_tab_2.png', alt='Texto que describa la imagen')
   
-      .py-4.py-md-5.bg-rosa.p-4(titulo="Producción" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Producción" :icono="require('@/assets/curso/images/tema1/icon_3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Producción
@@ -326,7 +351,7 @@
               img(src='@/assets/curso/images/tema1/img_tab_3.png', alt='Texto que describa la imagen')
 
 
-      .py-4.py-md-5.bg-rosa.p-4(titulo="Finanzas o contabilidad" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Finanzas o contabilidad" :icono="require('@/assets/curso/images/tema1/icon_4.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Finanzas o contabilidad
@@ -338,7 +363,7 @@
 
         
       
-      .py-4.py-md-5.bg-rosa.p-4(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="The splendor of the mystery" :icono="require('@/assets/curso/images/tema1/icon_5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Marketing y ventas
@@ -349,7 +374,30 @@
           .col-md-4
             figure
               img(src='@/assets/curso/images/tema1/img_tab_5.png', alt='Texto que describa la imagen')
-      
+
+
+    h3 Otras áreas
+
+    .row.justify-content-evenly.align-items-star.p-2
+      .col-lg-8(data-aos="fade-right")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
+          .row.justify-content-center.align-items-center(titulo="Innovación")
+            .col-md-9.mb-4.mb-md-0
+              p.mb-0  En esta área, se originan nuevas ideas de productos, así como la mejora en las prácticas y procesos tanto de producción como de comercialización.
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/images/tema1/ico_new_2.svg' alt='', style="width:120px; display:block; margin:auto 0;")
+          .row.justify-content-center.align-items-center(titulo="Tecnología")
+            .col-md-9.mb-4.mb-md-0
+              p.mb-3  En este departamento, se desarrolla el <i>hardware</i> y el <i>software</i> que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
+          .row.justify-content-center.align-items-center(titulo="Plan de saneamiento")
+            .col-md-9.mb-4.mb-md-0
+              p.mb-3  Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
+      .col-lg-4(data-aos="fade-right")
+        img(src='@/assets/curso/images/tema1/img_11.png' alt='', style="width:500px; display:block; margin:auto 0;")
 
     Separador
 
@@ -396,35 +444,41 @@
 
           p.mb-0 De ahí, la importancia de trabajar de la mano con su talento humano, pues, al construir un sentido de pertenencia sólido, se crea un clima organizacional sin fronteras, permitiendo el avance constante hacia nuevas tendencias y nuevos retos que, al asumirlos, generan crecimiento para ambas partes.
                   
+    .row.align-items-center.aling.my-3
+      .col-lg-12(data-aos="zoom-in-down")
+         .cajon.color-custom-12.p-4.mb-4.p-4
+          .row.justify-content-center.align-items-center
+            .col
+              .row.justify-content-between.align-items-center
+                .col-lg-12
+                  p.mb-1.text Para realizar el diagnóstico organizacional se requiere de información ya disponible o de nueva información suministrada mediante los antecedentes, por ello, es  imprescindible definir un parámetro que facilite hacer relevantes algunos elementos y descartar otros para acentuar los de mayor trascendencia y definir con claridad la coyuntura actual de la organización, como son las dificultades en la actualidad.
 
-    p.mb-3 Para realizar el diagnóstico organizacional se requiere de información ya disponible o de nueva información suministrada mediante los antecedentes, por ello, es  imprescindible definir un parámetro que facilite hacer relevantes algunos elementos y descartar otros para acentuar los de mayor trascendencia y definir con claridad la coyuntura actual de la organización, como son las dificultades en la actualidad.
-
-    p.mb-0 El diagnóstico organizacional orienta la organización hacia el logro de la eficiencia empresarial, para lo cual se ha identificado la necesidad de incluir tres clases de herramientas:
+    p.mb-3 El diagnóstico organizacional orienta la organización hacia el logro de la eficiencia empresarial, para lo cual se ha identificado la necesidad de incluir tres clases de herramientas:
 
     .row.justify-content-around.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/ico_4.svg',  alt='', style="width:120px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/ico_4.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
             .p-4
               h2.text-center.mb-4 Herramientas conceptuales
-              p.text-center.mb-5 Es indispensable consolidar conceptos y fundamentos que promuevan la comprensión acerca del funcionamiento de las organizaciones y su comportamiento, lo que hace la diferencia entre empresas eficientes e ineficientes.
+              p.text-center.mb-4 Es indispensable consolidar conceptos y fundamentos que promuevan la comprensión acerca del funcionamiento de las organizaciones y su comportamiento, lo que hace la diferencia entre empresas eficientes e ineficientes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/ico_5.svg',  alt='', style="width:120px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/ico_5.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-8
             .p-4
-              h2.text-center.mb-4 Técnicas y procesos de medición
-              p.text-center.mb-5 Es necesario definir una herramienta que recoja información acerca de la operación empresarial eficiente, con el fin de validar su efectividad e iniciar acciones en su desempeño, actividades y el impacto sobre sus integrantes.
+              h2.text-center.mb-5 Técnicas y procesos de medición
+              p.text-center.mb-4 Es necesario definir una herramienta que recoja información acerca de la operación empresarial eficiente, con el fin de validar su efectividad e iniciar acciones en su desempeño, actividades y el impacto sobre sus integrantes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/ico_6.svg',  alt='', style="width:120px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/ico_6.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
-            .p-4
+            .p-4            
               h2.text-center Tecnologías de cambio
-              p.text-center Debido al conocimiento acerca de la operatividad de la empresa y la información acerca de su funcionamiento, mediante herramientas para consolidar información conveniente, es posible implementar técnicas y procedimientos específicos para modificar pautas de comportamiento aportando a la eficiencia.
+              p.text-center.mb-0 Debido al conocimiento acerca de la operatividad de la empresa y la información acerca de su funcionamiento, mediante herramientas para consolidar información conveniente, es posible implementar técnicas y procedimientos específicos para modificar pautas de comportamiento aportando a la eficiencia.
 
 
     .row.align-items-center.justify-content-center.mb-3
@@ -463,16 +517,16 @@
               .col-md-12
                 figure
                   img(src="@/assets/curso/images/tema1/fig_dofa.svg").m-auto
-              .col-md-5
-                a.picture.indicador__container(@click="modal1 = true")
-                  img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                .col
-                    a.lnk(@click="modal1 = true") 
-                ModalA(:abrir-modal.sync="modal1")
-                  .row.align-items-center     
-                    .col-md-12
-                      figure
-                        img.mt-3(src="@/assets/curso/images/tema1/fig_dofa.svg").m-auto
+              .col-md-3
+                a.boton-1.me-2.indicador__container(
+                  :href="obtenerLink('downloads/Matriz FODA.pdf')"
+                  target="_blank"
+                  type="application/pdf"
+                  @mouseover="mostrarIndicador = false"
+                )
+                  img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                  .indicador--click(v-if="mostrarIndicador")
+   
           
 
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz de  PCI")
@@ -487,16 +541,15 @@
                 .col-md-12
                   figure
                     img(src="@/assets/curso/images/tema1/fig_dofa_2.svg").m-auto
-                .col-md-5
-                  a.picture.indicador__container(@click="modal1 = true")
-                    img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                  .col
-                      a.lnk(@click="modal1 = true") 
-                  ModalA(:abrir-modal.sync="modal1")
-                    .row.justify-content-center.align-items-center   
-                      .col-md-12
-                        figure
-                          img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_2.svg").m-auto
+                .col-md-3
+                  a.boton-1.me-2.indicador__container(
+                    :href="obtenerLink('downloads/Matriz de  PCI.pdf')"
+                    target="_blank"
+                    type="application/pdf"
+                    @mouseover="mostrarIndicador = false"
+                  )
+                    img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                    .indicador--click(v-if="mostrarIndicador")
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las Cinco Fuerzas")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
@@ -516,16 +569,15 @@
                 .col-md-12
                   figure
                     img(src="@/assets/curso/images/tema1/fig_6.svg").m-auto
-                .col-md-5
-                  a.picture.indicador__container(@click="modal1 = true")
-                    img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                  .col
-                      a.lnk(@click="modal1 = true") 
-                  ModalA(:abrir-modal.sync="modal1")
-                    .row.align-items-center     
-                      .col-md-12
-                        figure
-                          img.mt-3(src="@/assets/curso/images/tema1/fig_6.svg").m-auto
+                .col-md-3
+                  a.boton-1.me-2.indicador__container(
+                    :href="obtenerLink('downloads/Modelo de las Cinco Fuerzas.pdf')"
+                    target="_blank"
+                    type="application/pdf"
+                    @mouseover="mostrarIndicador = false"
+                  )
+                    img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                    .indicador--click(v-if="mostrarIndicador")
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz EFI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
@@ -544,16 +596,15 @@
                 .col-md-12
                   figure
                     img(src="@/assets/curso/images/tema1/fig_dofa_3.svg").m-auto
-                .col-md-5
-                  a.picture.indicador__container(@click="modal1 = true")
-                    img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                  .col
-                      a.lnk(@click="modal1 = true") 
-                  ModalA(:abrir-modal.sync="modal1")
-                    .row.align-items-center     
-                      .col-md-12
-                        figure
-                          img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_3.svg").m-auto
+                .col-md-3
+                  a.boton-1.me-2.indicador__container(
+                    :href="obtenerLink('downloads/Matriz EFI.pdf')"
+                    target="_blank"
+                    type="application/pdf"
+                    @mouseover="mostrarIndicador = false"
+                  )
+                    img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                    .indicador--click(v-if="mostrarIndicador")
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz MEFE")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
@@ -570,16 +621,15 @@
                 .col-md-12
                   figure
                     img(src="@/assets/curso/images/tema1/fig_dofa_4.svg").m-auto
-                .col-md-5
-                  a.picture.indicador__container(@click="modal1 = true")
-                    img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                  .col
-                      a.lnk(@click="modal1 = true") 
-                  ModalA(:abrir-modal.sync="modal1")
-                    .row.align-items-center     
-                      .col-md-12
-                        figure
-                          img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_4.svg").m-auto
+                .col-md-3
+                  a.boton-1.me-2.indicador__container(
+                    :href="obtenerLink('downloads/Matriz MEFE.pdf')"
+                    target="_blank"
+                    type="application/pdf"
+                    @mouseover="mostrarIndicador = false"
+                  )
+                    img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                    .indicador--click(v-if="mostrarIndicador")
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz POAM")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
@@ -601,16 +651,15 @@
                 .col-md-12
                   figure
                     img(src="@/assets/curso/images/tema1/fig_dofa_5.svg").m-auto
-                .col-md-5
-                  a.picture.indicador__container(@click="modal1 = true")
-                    img.mt-2(src='@/assets/curso/images/tema1/btn.svg',  alt='', style="width:60px; display:block; margin:auto 9rem ;")
-                  .col
-                      a.lnk(@click="modal1 = true") 
-                  ModalA(:abrir-modal.sync="modal1")
-                    .row.justify-content-center.align-items-center   
-                      .col-md-12
-                        figure
-                          img.mt-3(src="@/assets/curso/images/tema1/fig_dofa_5.svg").m-auto
+                .col-md-3
+                  a.boton-1.me-2.indicador__container(
+                    :href="obtenerLink('downloads/Matriz POAM.pdf')"
+                    target="_blank"
+                    type="application/pdf"
+                    @mouseover="mostrarIndicador = false"
+                  )
+                    img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
+                    .indicador--click(v-if="mostrarIndicador")
                         
       
     p.mb-3 Se puede concluir que existen diferentes herramientas para evaluar el contexto interno y externo de una organización, siendo de gran importancia la suma de ellas, pues cada una con sus complementarios permite esclarecer el panorama de la organización, encontrando estrategias que aporten a potencializar fortalezas, así como a convertir debilidades en fortalezas, a redituar las oportunidades que brinda el entorno y especialmente a preparase para evitar los impactos de la ocurrencia de amenazas.

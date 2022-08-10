@@ -65,7 +65,7 @@
   background-color: #CEE2DB
 
 .color-custom-1
-	background-color:  #C9F8FF
+	background-color:  #BBF1F9
 	&::before
 		background-color: #3AE3FE
   
@@ -104,6 +104,14 @@
 	&::before
 		background-color: #359547
 
+.color-custom-11
+  background-color: #F2FAF3
+
+.color-custom-12
+	background-color:  #C6F8FF
+	&::before
+		background-color: #3AE3FE
+
 .fondo-1
   background-image: url('../assets/curso/images/tema1/back_1.svg')
   background-size: cover
@@ -123,6 +131,10 @@
   background-image: url('../assets/curso/images/tema2/back_1.svg')
   background-size: cover
   background-repeat: no-repeat
+
+.jumbotron
+  background-color: #C6F3FB
+  border-radius: 30px
 
 .jumbotron-1
   background-color: #E1FBFF
@@ -161,15 +173,15 @@
 .linea-tiempo-d.color-secundario.especial
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__number
-      background-color: #BFF9EF
+      background-color: #E1FBFF
       color: $color-sistema-texto
     .linea-tiempo-d__item__content
-      background-color: #BFF9EF
+      background-color: #E1FBFF
       color: #000
 
 .linea-tiempo-d__item__content__title:hover 
   font-weight: 700
-  background-color: #BFF9EF
+  background-color: #E1FBFF
 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
   font-weight: 700
@@ -203,6 +215,15 @@
   align-items: center
   background: #fff
   background-color: rgba(255,255,255,0.1)
+
+.bg_grad-02
+  background-color: #E1EFE3
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 992px)
+    width: 390px
+    margin-left: -24px
+
 .btn-grupo img
   display: flex
   width: 60px
@@ -242,6 +263,22 @@
 .bg-rosa
   background-color: #FEF5E5
 
+.bg-color-1
+  background-image: url("../assets/curso/images/tema1/back_ico_title.svg") !important
+  background-repeat: no-repeat 
+
+.bg-color-2
+  background-image: url("../assets/curso/images/tema1/back_ico_title_1.svg") !important
+  background-repeat: no-repeat 
+
+.bg-color-3
+  background-image: url("../assets/curso/images/tema1/back_ico_title_2.svg") !important
+  background-repeat: no-repeat 
+
+.bg-color-4
+  background-image: url("../assets/curso/images/tema1/back_ico_title_3.svg") !important
+  background-repeat: no-repeat 
+
 .tabs-c.color-acento-contenido .tabs-c__tab--active
   border-bottom-color: #3AE3FE!important
   span 
@@ -250,7 +287,7 @@
     border-top-color: #3AE3FE
 
 .tabs-c__content-item
-  background-color: #EDEDF0
+  background-color: #FFF
 
 .tabs-c__content-item-1 
   background-color: #FFF
@@ -315,3 +352,25 @@
 
 .tab-c
   background-color: #F7FAF7
+
+.slyder-a__tipo-a .slyder-a__btn--atrs 
+  transform: translateY(-50%) rotate(90deg)
+  left: -9px
+
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  transform: translateY(-50%) rotate(-90deg)
+  right: -12px
+
+.bloque-texto-f__comillas i:last-of-type 
+  margin-left: 15px
+  vertical-align: text-top
+  top: calc(100% - 0px)
+  right: 10px
+  margin: 0
+  transform: translate(-50%, -50%)
+
+.pasos-b.color-acento-botones .pasos-b__header__item--active .pasos-b__header__item__dot span 
+  color: #fff
+
+.linea-tiempo-c__header__btn:hover, .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover, .pasos-b__header__btn--left:hover, .pasos-b__header__btn--right:hover 
+  border-color: #CCCCCC

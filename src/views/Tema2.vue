@@ -11,13 +11,40 @@
     p.mb-5 Para abordar este tema, es necesario mencionar que en todo diagnóstico el fin es identificar y reconocer un problema específico, luego de definir las áreas vinculadas y de recopilar la información pertinente y relacionada con el aspecto a tratar, considerándose el diagnóstico una investigación. Todo plan de trabajo contiene tres elementos esenciales, de acuerdo con Gallardo (1999): método, técnica e instrumentos.
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.cs.mg-top-1
-    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
       h5  Figura 6.
       span  Elementos de un plan de trabajo 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-12(data-aos="fade-left") 
-        img.my-3(src='@/assets/curso/images/tema2/fig_6.svg')
 
+    .row.justify-content-around.align-items-center.mb-0(data-aos="zoom-in-right")
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar.center
+          img(src='@/assets/curso/images/tema2/icon_1.svg' alt='', style="width:150px; display:block; margin:auto -2rem ;")
+          .tarjeta
+            .p-4
+              h2.text-center.mb-4 Método
+              p.text-center.mb-5 El método es el procedimiento general.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/images/tema2/icon_2.svg')
+          .tarjeta
+            .p-4
+              h2.text-center.mb-4 Técnica
+              p.text-center.mb-5 La técnica se refiere a las maneras de abordar distintas actividades de forma estandarizada.
+
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/images/tema2/icon_3.svg')
+          .tarjeta
+            .p-4
+              h2.text-center Instrumentos
+              p.text-center Los instrumentos son los mecanismos  para recoger la información de forma direccionada y organizada.
+
+      .row.align-items-center.justify-content-center
+        .col-lg-10
+          .jumbotron.p-4
+            p.mb-0 <b>La función primordial de los instrumentos de recolección de información es el registro de los fenómenos empíricos,</b> quedando registrados a través de la aplicación del instrumento utilizado, el cual permite obtener información precisa, si ha sido diseñado de manera adecuada y pertinente.
     
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-0
 
@@ -62,25 +89,21 @@
           .row(titulo='Triangulación de datos' numero='1')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                h3 Triangulación de datos
                 p.mb-3  Consiste en realizar una comparación de datos que provienen de distintas fuentes y están referidos a un mismo tema o fenómeno. Presenta tres subtipos: a) de tiempo; b) de espacio; y c) de personas. Estas últimas pueden ser analizadas en tres niveles: agregado, interactivo y colectivo.
 
           .row(titulo='Triangulación de teorías' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                h3 Triangulación de teorías
                 p.mb-3  Técnica que aplica diferentes modelos teóricos a un consolidado de información o a un lineamiento conceptual. Se realiza con el fin de integrar métodos, teorías y datos condensados que se relacionen con la realidad.
           
           .row(titulo='Triangulación de investigadores' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                h3 Triangulación de investigadores
                 p.mb-3  utiliza las observaciones recogidas acerca de una misma circunstancia o entorno, las cuales son presentadas con el fin de realizar una confrontación entre colegas, lo cual permite encontrar categorías consensuadas, precisar las interpretaciones acerca de los datos y garantizar la calidad.
 
           .row(titulo='Triangulación metodológica' numero='4')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                h3 Triangulación metodológica
                 p.mb-3  Proceso que utiliza diversas técnicas e instrumentos, que provienen de un método particular, relacionadas con el mismo objeto o fin del estudio; también se puede utilizar una combinación de técnicas (la observación, la entrevista, el análisis de documentos, etc.), logrando una mayor solidez en la información y reduciendo el sesgo particular de los participantes vinculados.
 
     
@@ -264,9 +287,9 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Ahora bien, de acuerdo con la técnica a implementar, se determina el instrumento de recolección de información a usar. Estos son diseñados de acuerdo con el objetivo a estudiar, el cual parte del problema que origina la investigación; por esta razón, en este apartado, se incluyen los instrumentos en cada tipología, con la claridad de que su diseño y aplicación deben ser acordes con la información que se espera obtener. A continuación, se presentan cada uno de ellos.
 
-    .row.align-items-center.align-items-center.bg-rosa.p-4.my-5
+    .row.align-items-center.align-items-center.bg-rosa.mb-3
       .col-lg-12
-        LineaTiempoC(text-small)
+        PasosB.color-acento-botones.py-5.px-4
           .row(titulo="1")
             .col-md-6.mb-4.mb-md-0
               h3 Encuesta
@@ -279,6 +302,7 @@
 
           .row(titulo="2")
             .col-md-6.mb-4.mb-md-0
+              h3 Observación
               p.mb-3  Técnica de recolección de información que consiste en la inspección y estudio de los hechos u objeto de investigación, tal como ocurren en la realidad, a través del uso de los sentidos (con o sin ayuda de soportes tecnológicos), de acuerdo con los requerimientos de estudio y a partir de las categorías perceptivas definidas desde las teorías científicas que apoyan la investigación. Los tipos de técnicas de observación existentes son:
 
               h3 Directa.
@@ -323,8 +347,6 @@
               figure
                 img(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen')
 
-
-  
           .row(titulo="5")
             .col-md-6.mb-4.mb-md-0
               h3 Focus group
@@ -405,7 +427,7 @@
           p.mb-0 Son clientes de la marca que participan en diferentes actividades, como fotos o lluvias de ideas sobre nuevos productos y servicios.
 
     h3.mb-3 Técnica e instrumentos de recolección de información
-    p.mb-3 El siguiente gráfico ejemplifica de forma genérica cómo seleccionar el instrumento de acuerdo con la técnica a implementar.  
+    p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
     
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
@@ -549,7 +571,7 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 7
           span Mapa de <i>stakeholders</i>
-        img.mt-3(src='@/assets/curso/images/tema2/fig_5.svg')
+        img.mt-3(src='@/assets/curso/images/tema2/fig_5.svg')(data-aos="zoom-in-down")
     
     .row.aling.my-5   
       .col-lg-10(data-aos="zoom-in-down")
