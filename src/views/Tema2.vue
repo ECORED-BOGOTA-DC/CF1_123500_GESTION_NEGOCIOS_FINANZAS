@@ -508,7 +508,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Los grupos de interés son identificados de acuerdo con la prioridad que tienen los objetivos asociados a los grupos más importantes. Es una misión de la dirección buscar el equilibrio entre los objetivos de los diferentes grupos presentes en la empresa, lo cual solo puede alcanzarse mediante la negociación, al fijar objetivos que integren los de todos, con el fin de otorgar la capacidad de tomar decisiones y especialmente de participar. Los criterios para reconocer grupos de interés son:
     .row.align-items-center.justify-content-center.mb-3
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-right")
         .list
           .list__item
             .list__item__icon

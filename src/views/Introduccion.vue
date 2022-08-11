@@ -29,7 +29,7 @@
           p.mb-0 Todo esto se construye desde el diseño o planeación, para luego ponerlo en marcha en la operación o funcionamiento operacional de la misma, fase en la que se hace necesario realizar el diagnóstico organizacional con el fin de evaluar el desempeño de la empresa para hacer los ajustes requeridos y adaptarse al cambio, fidelizar los clientes y captar nuevos, lo que es posible solo si la organización se mantiene a la vanguardia a través de estratégicas decisiones gerenciales.
 
    
-      .col-lg-4(data-aos="fade-left") 
+      .col-lg-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema1/img_1_intro.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
 
 

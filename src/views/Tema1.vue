@@ -10,7 +10,7 @@
     p.mb-3 La empresa, desde su concepto, se puede abarcar desde distintas perspectivas, que, al leerlas, de alguna forma se complementan. Para este caso en particular, se expondrán algunas de ellas, lo que permitirá construir una definición propia de la misma.
 
  
-    h3 Definiciones de empresa
+    h4.mb-3 Definiciones de empresa
     
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA
@@ -259,7 +259,7 @@
                 p.mb-0 La razón social de la sociedad en comandita por acciones se formará con el nombre completo o solo el apellido de uno o más socios colectivos, y se agregará la expresión “y compañía” o la abreviatura “& Cía”, seguida de las palabras “Sociedad Comanditaria por Acciones” o su abreviatura “SCA”, que significa: esta es una sociedad  colectiva. (CCC, 2020).
 
       
-    .row.aling.my-5   
+    .row.aling.mb-2   
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom-1.p-4.mb-4.p-4
           .row.justify-content-around.align-items-center
