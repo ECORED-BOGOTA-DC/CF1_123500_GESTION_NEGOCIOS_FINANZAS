@@ -49,7 +49,7 @@
             .col-lg-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3 Conclusión
+                  h4 Conclusión
                   p En conclusión, las empresas son el motor económico de los países, gracias a que a través suyo se genera riqueza y empleo, dinamizando el desarrollo de las naciones; razón por la cual  son reconocidas como la unidad productiva de la economía. Fueron creadas para ofertar bienes y servicios, y a través de ellas se formalizaron las transacciones u operaciones comerciales; de tal manera que el trueque dio paso a generar la necesidad de retribución económica por los productos y servicios vendidos, lo cual genera a su vez un beneficio tanto para el productor/comercializador como para el cliente o beneficiario del servicio o producto.
 
 
@@ -75,9 +75,11 @@
 
           p.mb-0 Ahora bien, las características de la empresa son los rasgos que la identifican como ente productivo y económico que ofrece bienes y servicios. Esta inicia sus actividades, como se ha mencionado, con gran expectativa de satisfacer las necesidades de los clientes y poder llegar a fidelizarlos, generando así ingresos que le permitan ampliar su capacidad productiva, lanzar nuevas líneas de productos, crecer y consolidarse en el sector al que pertenezca. La organización debe estar cargada de dinamismo para adaptarse a los cambios que el entorno le presente y coordinar sus recursos para el logro de los objetivos. Por tanto, las siguientes pueden identificarse como sus características.
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-      h5 Figura 2
-      span  Características de la empresa
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
+          h5 Figura 2
+          span  Características de la empresa
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left") 
@@ -100,9 +102,9 @@
     p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
-    .row.align-items-center.justify-content-center.mb-3
+    .row.align-items-center.justify-content-center
       .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 1
           span   Clasificación del tamaño empresarial según el criterio único de ingresos por actividades ordinarias
         .tabla-a.color-acento-contenido.mb-5 
@@ -110,7 +112,7 @@
             caption Cifras de ingresos por actividades ordinarias anuales en millones de pesos colombianos de 2019 
             thead
               tr      
-                th.th tamaño
+                th.th Tamaño
                 th.th Manufactura
                 th.th Servicios
                 th.th Comercio
@@ -121,10 +123,10 @@
                 td.th-1  Hasta 1.131   
                 td.th-1  Hasta 1.535  
               tr 
-                th Pequeña
-                td Desde 811 hasta 7.027
-                td Desde 1.131 hasta 4.523
-                td Desde 1.535 hasta 14.781
+                th.th-2 Pequeña
+                td.th-2 Desde 811 hasta 7.027
+                td.th-2 Desde 1.131 hasta 4.523
+                td.th-2 Desde 1.535 hasta 14.781
               tr 
                 th.th-1  Mediana  
                 td.th-1  Desde 7.027 hasta 59.527
@@ -181,14 +183,14 @@
 
 
       .row.align-items-center.justify-content-center.mb-3
-        .col-lg-6(data-aos="fade-right") 
+        .col-lg-7(data-aos="fade-right") 
 
             p.mb-3 Según el origen del capital correspondiente a la inversión para dar inicio a la operación de la empresa, puede ser privado si el capital, representado en dinero o bienes, es invertido en la organización y viene de socios; también, puede ser público si el capital proviene de las arcas del Estado; y mixtas  si el capital aportado proviene de socios, que pueden ser personas naturales o jurídicas, y de entidades del Estado, simultáneamente. También existen las empresas donde el capital está en manos de los trabajadores, denominadas empresas de autogestión.
 
             p.mb-0 “Las sociedades de economía mixta se sujetan a las reglas del derecho privado y a la jurisdicción ordinaria, salvo disposición legal en contrario” (Art. 461 del Código de Comercio, 2020).
 
     
-        .col-lg-6(data-aos="fade-left") 
+        .col-lg-5(data-aos="fade-left") 
           img.mt-3(src='@/assets/curso/images/tema1/img_7.png')
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
@@ -203,15 +205,15 @@
     .row.justify-content-evenly.align-items-center.p-2
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
-          .row(titulo='¿Qué son las sociedades?' numero='2')
+          .row(titulo='¿Qué son las sociedades?' numero='1')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  La sociedad es la reunión de personas naturales o jurídicas que unen sus esfuerzos bajo una figura legal constituida mediante escritura pública y cumpliendo con todos los requisitos de ley para su creación, bajo la cual se asigna un nombre que debe quedar instaurado en todos los estamentos relacionados con la constitución de la empresa y que debe declarar con claridad el tipo de responsabilidad a que corresponde. 
                 p.mb-3 Esta figura se denomina persona jurídica, la cual tiene derechos y responsabilidades. Asimismo, puede ser representada judicial y extrajudicialmente.
  
-                p.mb-0 En Colombia, se pueden constituir diferentes tipos de sociedades, tales como: Sociedad Limitada, Empresa Unipersonal, Sociedad Anónima, Sociedad Colectiva, Sociedad por Acciones Simplificada S.A.S., Sociedad en Comandita, entre otras. Cada una de ellas tiene unas características y responsabilidades diferentes.
+                p.mb-0 En Colombia, se pueden constituir diferentes tipos de sociedades, tales como: sociedad limitada, empresa unipersonal, sociedad anónima, sociedad colectiva, sociedad por acciones simplificada S.A.S., sociedad en comandita, entre otras. Cada una de ellas tiene unas características y responsabilidades diferentes.
 
-          .row(titulo='Sociedad Limitada' numero='1')
+          .row(titulo='Sociedad Limitada' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
 
@@ -233,30 +235,30 @@
   
                 p.mb-0  En este tipo de sociedad, todos los socios, en nombre colectivo, responderán solidaria e ilimitadamente por las operaciones sociales.
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_10.png' alt='', style="width:500px; display:block; margin:auto 0;")
+        img(src='@/assets/curso/images/tema1/img_10.png')
     .row.justify-content-evenly.align-items-center.p-2
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_8.png' alt='', style="width:500px; display:block; margin:auto 0;")
+        img(src='@/assets/curso/images/tema1/img_8.png')
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
-          .row(titulo='Sociedad por Acciones Simplificada S.A.S.' numero='6')
+          .row(titulo='Sociedad por acciones simplificada S.A.S.' numero='6')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  Este tipo de empresa podrá constituirse por una o más personas naturales o jurídicas, quienes tendrán responsabilidad en este tipo de sociedad hasta el monto de sus aportes. Fue creada por la Ley 1258 de 2008, tiene naturaleza comercial indistinta de las actividades que incluyen su objeto social, este último puede ser indeterminado para realizar actividades legales y fue creada como estrategia para promover el emprendimiento. 
 
-          .row(titulo=' Sociedad en Comandita Simple S. en C.' numero='7')
+          .row(titulo=' Sociedad en comandita simple S. en C.' numero='7')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-3  Se constituye siempre entre uno o más socios que se comprometen solidaria e ilimitadamente por las operaciones realizadas, denominados <b>Socios Gestores</b>, y otro o varios socios que limitan la responsabilidad a sus respectivos aportes reconocidos como <b>Socios Comanditarios.</b>
+                p.mb-3  Se constituye siempre entre uno o más socios que se comprometen solidaria e ilimitadamente por las operaciones realizadas, denominados <b>socios gestores</b>, y otro o varios socios que limitan la responsabilidad a sus respectivos aportes reconocidos como <b>socios comanditarios.</b>
                 p.mb-0 La razón social de la sociedad comanditaria simple se formará con el nombre completo o sólo el apellido de uno o más socios colectivos y se agregará la expresión “y compañía” o la abreviatura “& Cía”, seguida de la indicación abreviada S. en C.
 
 
-          .row(titulo='Sociedad en Comandita por Acciones' numero='8')
+          .row(titulo='Sociedad en comandita por acciones' numero='8')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-3  Esta sociedad  se crea entre uno o más socios que comprometen solidaria e ilimitadamente su responsabilidad por las operaciones que realicen los reconocidos como Socios Gestores, y otro o varios socios que limitan la responsabilidad al monto de sus aportes, denominados Socios Comanditarios. 
+                p.mb-3  Esta sociedad  se crea entre uno o más socios que comprometen solidaria e ilimitadamente su responsabilidad por las operaciones que realicen los reconocidos como socios gestores, y otro o varios socios que limitan la responsabilidad al monto de sus aportes, denominados socios comanditarios. 
 
-                p.mb-0 La razón social de la sociedad en comandita por acciones se formará con el nombre completo o solo el apellido de uno o más socios colectivos, y se agregará la expresión “y compañía” o la abreviatura “& Cía”, seguida de las palabras “Sociedad Comanditaria por Acciones” o su abreviatura “SCA”, que significa: esta es una sociedad  colectiva. (CCC, 2020).
+                p.mb-0 La razón social de la sociedad en comandita por acciones se formará con el nombre completo o solo el apellido de uno o más socios colectivos, y se agregará la expresión “y compañía” o la abreviatura “& Cía”, seguida de las palabras “sociedad comanditaria por acciones” o su abreviatura “SCA”, que significa: esta es una sociedad  colectiva. (CCC, 2020).
 
       
     .row.aling.mb-2   
@@ -266,7 +268,7 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3 Empresa de una persona o Empresa unipersonal
+                  h4 Empresa de una persona o Empresa unipersonal
                   p.mb-0 Es posible constituir una empresa con un solo socio, que conforme una persona jurídica distinta a ese único socio, pero técnicamente no es una sociedad unipersonal. La sociedad unipersonal no existe como consecuencia de la creación de las S.A.S., lo que existe es la empresa unipersonal, creada por la Ley 222 de 1995, que no tiene la característica de sociedad (Gerencia.com, 2022).
 
     .row.aling.my-5   
@@ -309,7 +311,7 @@
                     span Descargar
                     .row
                       .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                        img.mx-1(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
     Separador
 
     #t_1_2.titulo-segundo
@@ -322,7 +324,7 @@
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Dirección
-            p.mb-3  El área de Dirección en una organización es conocida como alta gerencia, gerencia, dirección, administración, entre otros. En ella, se define el rumbo de la empresa, es decir, se establece el qué quiere lograr a través de su operación  u objetivos organizacionales, se toman decisiones importantes para el rumbo de la misma y se dirigen las operaciones que debe desarrollar para alcanzar lo planteado. 
+            p.mb-3  El área de dirección en una organización es conocida como alta gerencia, gerencia, dirección, administración, entre otros. En ella, se define el rumbo de la empresa, es decir, se establece el qué quiere lograr a través de su operación  u objetivos organizacionales, se toman decisiones importantes para el rumbo de la misma y se dirigen las operaciones que debe desarrollar para alcanzar lo planteado. 
 
             p.mb-0 Esta área funcional dentro de la organización también se reconoce como la primera etapa del proceso administrativo, lo que configura el liderazgo y diseño de la empresa, por lo cual tiene una estrecha relación con la última etapa del proceso administrativo, denominada control, que en síntesis es donde se evalúa el desempeño organizacional de la medición de resultados y se toman nuevas decisiones para iniciar de nuevo un enfoque, camino o estrategia.
         
@@ -500,7 +502,7 @@
     Separador
 
     #t_1_4.titulo-segundo
-      .h2 1.4 matrices diagnosticas 
+      .h2 1.4 Matrices diagnósticas 
 
     p.mb-3 Las matrices diagnósticas han sido diseñadas con el fin de condensar diferentes factores claves de éxito de una organización, para medirlos o evaluarlos desde la realidad de su desempeño y operación empresarial. Ellas son instrumentos poderosos para la gestión empresarial, que permiten recoger información sobre diferentes aspectos de la empresa, para que luego, a través de la aplicación de otras estrategias o simplemente del análisis del conjunto de información, se pueda construir una conclusión. A continuación, se desarrollan las más relevantes.
 
@@ -550,11 +552,11 @@
                   )
                     img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
                     .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las Cinco Fuerzas")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las cinco fuerzas")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Modelo de las Cinco Fuerzas
-            p.mb-3 El Modelo Estratégico de las Cinco Fuerzas de Michael Porter, estudia si es productivo crear una organización en un determinado sector con base en el mercado, y se concentra en realizar un análisis de la competitividad como herramienta estratégica gerencial. 
+            h5 Modelo de las cinco fuerzas
+            p.mb-3 El modelo estratégico de las cinco fuerzas de Michael Porter, estudia si es productivo crear una organización en un determinado sector con base en el mercado, y se concentra en realizar un análisis de la competitividad como herramienta estratégica gerencial. 
 
             p.mb-3 A través de este modelo, Porter se plantea conocer el estado de la empresa en el sector y el atractivo de la misma, que se determina por las siguientes cinco fuerzas:
 

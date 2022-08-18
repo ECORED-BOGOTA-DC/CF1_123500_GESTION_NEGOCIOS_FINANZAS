@@ -18,7 +18,7 @@
       .col-lg-10
         .bloque-texto-c.color-custom.p-4
             i.fas.fa-quote-right
-            h3.mb-2  La empresa siempre ha estado sujeta o influida por el entorno, lo cual hace que esté en permanente cambio, reconociendo los nuevos retos, adaptándose a los últimos procesos y tecnologías, apropiando esas actualizaciones para vincularlas y evaluando su implementación con el fin de elegir lo que es más conveniente y productivo para ella; es decir, generando una identidad organizacional propia que la diferencie de las demás.
+            h4.mb-2  La empresa siempre ha estado sujeta o influida por el entorno, lo cual hace que esté en permanente cambio, reconociendo los nuevos retos, adaptándose a los últimos procesos y tecnologías, apropiando esas actualizaciones para vincularlas y evaluando su implementación con el fin de elegir lo que es más conveniente y productivo para ella; es decir, generando una identidad organizacional propia que la diferencie de las demás.
             span - (Gerencia.com, 2022).
 
     .row.align-items-center.justify-content-center.mb-3
@@ -29,18 +29,16 @@
           p.mb-0 Todo esto se construye desde el diseño o planeación, para luego ponerlo en marcha en la operación o funcionamiento operacional de la misma, fase en la que se hace necesario realizar el diagnóstico organizacional con el fin de evaluar el desempeño de la empresa para hacer los ajustes requeridos y adaptarse al cambio, fidelizar los clientes y captar nuevos, lo que es posible solo si la organización se mantiene a la vanguardia a través de estratégicas decisiones gerenciales.
 
    
-      .col-lg-5(data-aos="fade-left") 
+      .col-lg-6(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema1/img_1_intro.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
 
 
     .row.aling.my-3   
-      .col-lg-10(data-aos="zoom-in-down")
-        .cajon.color-custom-1.p-4.mb-4.p-4
+      .col-lg-8(data-aos="zoom-in-down")
+        .cajon.color-custom-1.mb-4.p-2
           .row.justify-content-around.align-items-center
-            .col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p Este componente formativo, además de desarrollar las temáticas descritas anteriormente, cerrará exponiendo cada uno de los instrumentos de recolección de información que son fundamentales para realizar diagnósticos o investigaciones orientadas a la implementación de un nuevo proyecto. 
+            .col-lg-11
+              p Este componente formativo, además de desarrollar las temáticas descritas anteriormente, cerrará exponiendo cada uno de los instrumentos de recolección de información que son fundamentales para realizar diagnósticos o investigaciones orientadas a la implementación de un nuevo proyecto. 
 
 
 

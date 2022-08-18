@@ -99,7 +99,7 @@
           .row(titulo='Triangulación de investigadores' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-3  utiliza las observaciones recogidas acerca de una misma circunstancia o entorno, las cuales son presentadas con el fin de realizar una confrontación entre colegas, lo cual permite encontrar categorías consensuadas, precisar las interpretaciones acerca de los datos y garantizar la calidad.
+                p.mb-3  Utiliza las observaciones recogidas acerca de una misma circunstancia o entorno, las cuales son presentadas con el fin de realizar una confrontación entre colegas, lo cual permite encontrar categorías consensuadas, precisar las interpretaciones acerca de los datos y garantizar la calidad.
 
           .row(titulo='Triangulación metodológica' numero='4')
             .row.justify-content-center.align-items-star
@@ -305,10 +305,10 @@
               h3 Observación
               p.mb-3  Técnica de recolección de información que consiste en la inspección y estudio de los hechos u objeto de investigación, tal como ocurren en la realidad, a través del uso de los sentidos (con o sin ayuda de soportes tecnológicos), de acuerdo con los requerimientos de estudio y a partir de las categorías perceptivas definidas desde las teorías científicas que apoyan la investigación. Los tipos de técnicas de observación existentes son:
 
-              h3 Directa.
-              p.mb-3 Indirecta: ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno. La dependencia del observador de los instrumentos es fundamental en este tipo de observación.
+              p Directa.
+              p.mb-0 Indirecta: ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno. La dependencia del observador de los instrumentos es fundamental en este tipo de observación.
               p.mb-0 La participante: atañe a la observación que realiza el investigador de manera cercana a la realidad.
-              No participante: corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
+              p.mb-0 No participante: corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
                         
             .col-md-6
               figure
@@ -326,7 +326,7 @@
                 img(src='@/assets/curso/images/tema2/img_15.png', alt='Texto que describa la imagen')
         
             .row
-              p.my-3 Los tipos de entrevista son: estructurada o formal, no estructurada  o informal, semiestructurada. También se pueden clasificar en: entrevista individual o entrevista grupal o focus group.
+              p.my-3 Los tipos de entrevista son: estructurada o formal, no estructurada  o informal, semiestructurada. También se pueden clasificar en: entrevista individual o entrevista grupal o <i>focus group.</i>
 
               p.mb-3 En las entrevistas, se usan cuestionarios para la recolección de información, ya sea cualitativa o cuantitativa. Su elaboración debe ser cuidadosa y profesional, de manera que las preguntas no influyan en la respuesta que se espera recibir. 
 
@@ -334,7 +334,7 @@
 
           .row(titulo="4")
             .col-md-6.mb-4.mb-md-0
-              h3 Recopilación/Revisión/Análisis documental
+              h3 Recopilación/revisión/análisis documental
               p.mb-3 El fundamento de una investigación se origina en la revisión o análisis de fuentes bibliográficas, las cuales pueden ser personales, como testimonios, entrevistas grupales, institucionales, formales o informales. En estas fuentes, se encuentran diferentes tipos de información de incalculable valor, que pueden consolidarse como piezas claves para el desarrollo del diagnóstico o investigación. Para realizar el análisis documental, es necesario:
 
               p.mb-0 Realizar un inventario de documentos existentes y disponibles.
@@ -349,7 +349,7 @@
 
           .row(titulo="5")
             .col-md-6.mb-4.mb-md-0
-              h3 Focus group
+              h3 <i>Focus group</i>
               p Es una herramienta o instrumento cualitativo de recolección de datos. Consiste en realizar una entrevista en grupo, con el objetivo de recoger información sobre un número específico de preguntas. Es muy útil para recoger información de manera inmediata y espontánea, bajo la instrucción de un moderador, el cual socializa la herramienta y presenta el objetivo de su aplicación.
           
             .col-md-6
@@ -367,13 +367,13 @@
 
           .row(titulo="7")
             .col-md-6.mb-4.mb-md-0
-              h3 Categorización. Triangulación y Teoría fundamentada
+              h3 Categorización. Triangulación y teoría fundamentada
               p.mb-3 Consiste en realizar un proceso a través del cual se busca reducir la información de la investigación, con el fin de describirla de manera conceptual y que esta responda a una estructura sistemática e inteligible para las personas y que, a su vez, sea significativa. Para que esta información conserve su carácter en este proceso de categorización, es necesario que el investigador conserve los temas tratados en la investigación, ya que esto permite mantener los resultados de la investigación encontrados por su autor.
               p.mb-3 También es pertinente mencionar que esta herramienta es un proceso cognitivo complejo de clasificación según las semejanzas y diferencias encontradas, que responden a unos criterios previamente determinados, es decir, la agrupación de información, de acuerdo con sus características, en capítulos, apartados o conjuntos y subconjuntos a los que se les debe asignar nombre. Las categorías se dividen en tres clases: 
 
               p.mb-0 Deductivas: se fundamentan en el marco conceptual, las preguntas y objetivos de investigación.
               p.mb-0 Inductivas: emergen de los datos con base en el examen de patrones y recurrencias.
-              p.mb-0 bductivas: descubrimiento de eventos anómalos o sorpresivos sobre los que se crean conceptos.
+              p.mb-0 Abductivas: descubrimiento de eventos anómalos o sorpresivos sobre los que se crean conceptos.
           
             .col-md-6
               figure
@@ -466,13 +466,13 @@
     .row.justify-content-evenly.align-items-center.p-2
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
-          .row(titulo='Legitimidad' numero='2')
+          .row(titulo='Legitimidad' numero='1')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0  Es la obligatoriedad que tienen los grupos de interés de cumplir con normas, leyes, reglamentos, procesos y procedimientos en un sistema social o es la implicación de cumplir con el reglamento de trabajo, las normas legales y las políticas organizacionales.
            
 
-          .row(titulo='Impacto social' numero='1')
+          .row(titulo='Impacto social' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
 
