@@ -83,7 +83,7 @@
     h3 Tipos de triangulación
     .row.justify-content-evenly.align-items-center.p-2
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema2/img_11.png')
+        img(src='@/assets/curso/images/tema2/img_11.png').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Triangulación de datos' numero='1')
@@ -118,7 +118,7 @@
       div(titulo="Instrumentos de recolección de información cualitativa")
         .row.align-items-star.justify-content-center.p-4
           .col-lg-6
-            img(src='@/assets/curso/images/tema2/img_4.png')
+            img(src='@/assets/curso/images/tema2/img_4.png').mb-3
           .col-lg-6
             p.mb-3 Los instrumentos de recolección de información cualitativa son necesarios debido a la existencia de la investigación cualitativa basada en la comparación. Este tipo de instrumentos son utilizados en proyectos donde se requiere demostrar una teoría, donde existe una variable dependiente y una independiente, es decir, proyectos de tipo social o que analizan el comportamiento humano en un entorno determinado indiferente del sector al que corresponda. 
 
@@ -176,7 +176,7 @@
       div(titulo="Instrumentos de recolección de información cuantitativa")
         .row.align-items-star.justify-content-center.p-4
           .col-lg-5
-            img(src='@/assets/curso/images/tema2/img_5.png')
+            img(src='@/assets/curso/images/tema2/img_5.png').mb-3
           .col-lg-7
             p.mb-3 Están orientados a obtener datos concretos y numéricos sobre la variable, situación o problema objeto de estudio.
             .list
@@ -230,7 +230,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1          
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema2/img_12.png')
+        img.mt-3(src='@/assets/curso/images/tema2/img_12.png').mb-3
       .col-lg-5(data-aos="fade-right") 
         p.mb-3 Las técnicas de recolección de información corresponden a los procedimientos elegidos para adelantar una investigación de cualquier orden, con el fin de garantizar que la técnica elegida aporta al cumplimiento del objetivo de la investigación. Las técnicas más conocidas son:
         .list
@@ -534,7 +534,7 @@
     
     .row.justify-content-evenly.align-items-center.p-2
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema2/img_25.svg' alt='', style="width:500px; display:block; margin:auto 0;")
+        img(src='@/assets/curso/images/tema2/img_25.svg' alt='', style="width:500px; display:block; margin:auto 0;").mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Grupos de interés externos' numero='1')

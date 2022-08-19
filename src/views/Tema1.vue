@@ -67,7 +67,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/img_2.png')
+        img.mt-3(src='@/assets/curso/images/tema1/img_2.png').mb-3
 
       .col-lg-6(data-aos="fade-right") 
 
@@ -238,7 +238,7 @@
         img(src='@/assets/curso/images/tema1/img_10.png')
     .row.justify-content-evenly.align-items-center.p-2
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_8.png')
+        img(src='@/assets/curso/images/tema1/img_8.png').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Sociedad por acciones simplificada S.A.S.' numero='6')
@@ -283,7 +283,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_2.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_2.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
                   h3 Tipos de sociedades en Colombia
                   p.mb-1.text Amplía el conocimiento sobre los tipos de sociedades en Colombia.
@@ -302,7 +302,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_3.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_3.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
                   h3 Consolidado de sociedades en Colombia
                   p.mb-1.text El siguiente cuadro comparativo permite analizar cada una de las sociedades de acuerdo con sus características. Recurso que también puede ser consultado en el material de apoyo.
@@ -386,17 +386,17 @@
           .row.justify-content-center.align-items-center(titulo="Innovación")
             .col-md-9.mb-4.mb-md-0
               p.mb-0  En esta área, se originan nuevas ideas de productos, así como la mejora en las prácticas y procesos tanto de producción como de comercialización.
-            .col-md-3.mb-4.mb-md-0
+            .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_new_2.svg' alt='', style="width:120px; display:block; margin:auto 0;")
           .row.justify-content-center.align-items-center(titulo="Tecnología")
             .col-md-9.mb-4.mb-md-0
               p.mb-3  En este departamento, se desarrolla el <i>hardware</i> y el <i>software</i> que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
-            .col-md-3.mb-4.mb-md-0
+            .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
           .row.justify-content-center.align-items-center(titulo="Plan de saneamiento")
             .col-md-9.mb-4.mb-md-0
               p.mb-3  Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
-            .col-md-3.mb-4.mb-md-0
+            .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
       .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_11.png' alt='', style="width:500px; display:block; margin:auto 0;")
