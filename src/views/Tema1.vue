@@ -22,7 +22,7 @@
               .bloque-texto-f__comillas
                 i.fas.fa-quote-left
                 i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto.text-center Acción ardua que un individuo o grupo social de emprendedores realiza para llevar a cabo un intento o designio mediante la administración del capital y el trabajo coordinado para producir bienes y servicios con el fin de satisfacer las necesidades de un tercero conocido como cliente, usuario o comunidad.  (Ramírez, 2009).
+              h5.text-regular.bloque-texto-f__texto.text-center Acción ardua que un individuo o grupo social de emprendedores realiza para llevar a cabo un intento o designio mediante la administración del capital y el trabajo coordinado para producir bienes y servicios con el fin de satisfacer las necesidades de un tercero conocido como cliente, usuario o comunidad.  (Ramírez, 2009).
         .row.justify-content-center.align-items-center.p-5
           .col-12.col-md-3.mb-3.mb-md-0
             img.mt-3(src="@/assets/curso/images/tema1/ico_new_1.svg",  alt='', style="width:200px; display:block; margin:auto 0 ;").mb-3
@@ -31,7 +31,7 @@
               .bloque-texto-f__comillas
                 i.fas.fa-quote-left
                 i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto.text-center  “Unidad económica autónoma organizada para combinar un conjunto de factores de producción con vista a la producción de bienes o la prestación de servicios para el mercado” (Matiz, 2009).
+              h5.text-regular.bloque-texto-f__texto.text-center  “Unidad económica autónoma organizada para combinar un conjunto de factores de producción con vista a la producción de bienes o la prestación de servicios para el mercado” (Matiz, 2009).
         .row.justify-content-center.align-items-center.p-5
           .col-12.col-md-3.mb-3.mb-md-0
             img.mt-3(src="@/assets/curso/images/tema1/ico_new_1.svg",  alt='', style="width:200px; display:block; margin:auto 0 ;").mb-3
@@ -40,7 +40,7 @@
               .bloque-texto-f__comillas
                 i.fas.fa-quote-left
                 i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto.text-center  Las empresas son una fuente de ingresos para trabajadores, proveedores, gobierno y empresarios, promueven el desarrollo económico de la sociedad, contribuyen al sostenimiento de servicios públicos, representan un medio para la realización o satisfacción personal, y fomentan la capacitación y el desarrollo de habilidades, así como la inversión y la formación de capital (Münch, 2004).
+              h5.text-regular.bloque-texto-f__texto.text-center  Las empresas son una fuente de ingresos para trabajadores, proveedores, gobierno y empresarios, promueven el desarrollo económico de la sociedad, contribuyen al sostenimiento de servicios públicos, representan un medio para la realización o satisfacción personal, y fomentan la capacitación y el desarrollo de habilidades, así como la inversión y la formación de capital (Münch, 2004).
 
     .row.aling.my-5   
       .col-lg-12(data-aos="zoom-in-down")
@@ -62,7 +62,7 @@
 
    
       .col-lg-4(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/img_1.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        img.mt-3(src='@/assets/curso/images/tema1/img_1.png')
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
     .row.align-items-center.justify-content-center.mb-5
@@ -94,7 +94,7 @@
 
     p.mb-3 La clasificación o tipologías de las empresas tiene su origen en determinados criterios. A continuación, se desarrolla cada uno de ellos.
 
-    .row.mb-5.ps-2(data-aos="zoom-in-down")
+    .row.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-4.bg-color-1.px-3.py-1
         .h4.mb-0.text-white Tamaño
 
@@ -148,7 +148,7 @@
             .col-12.col-md-4.mb-3.mb-md-0
               img.mt-3(src="@/assets/curso/images/tema1/img_4.png").m-auto
             .col-12.col-md-6.mb-3.mb-md-0
-              h5 Primario
+              h4 Primario
               p.mb-0 Es el dedicado a la explotación de la tierra o a la explotación de los recursos naturales, ya sea renovables o no renovables. Son actividades extractivas o mineras, agropecuarias como producción de bovinos, caprinos, ovinos y porcinos, y agrícolas, entre otras.
 
         .py-3.py-md-4(titulo="Secundario")
@@ -156,7 +156,7 @@
             .col-12.col-md-4.mb-3.mb-md-0
               img.mt-3(src="@/assets/curso/images/tema1/img_3.png").m-auto
             .col-12.col-md-6.mb-3.mb-md-0
-              h5 Secundario
+              h4 Secundario
               p.mb-0 Es la actividad de las empresas ubicadas en la producción de bienes mediante la transformación o extracción de materias primas. En él, se encuentran empresas manufactureras que transforman la materia prima en productos finales, y las organizaciones dedicadas a producir bienes de producción para abastecer la industria manufacturera o industrial.
       
         .py-3.py-md-4(titulo="Terciario")
@@ -164,7 +164,7 @@
             .col-12.col-md-4.mb-3.mb-md-0
               img.mt-3(src="@/assets/curso/images/tema1/img_5.png").m-auto
             .col-12.col-md-6.mb-3.mb-md-0
-              h5 Terciario
+              h4 Terciario
               p.mb-0 Son las empresas que ofrecen servicios intangibles a disposición de la comunidad en general. Entre estos, se encuentran la educación, el turismo, salud, finanzas, <i>outsourcing</i> y transporte, entre otros. Los servicios ofertados en este sector tienen la característica principal de ser conocidos y evaluados solo cuando se disfrutan o vivencian.
 
 
@@ -202,7 +202,7 @@
     p.mb-3 Forma jurídica se refiere a la constitución legal que se realiza de la empresa y en qué tipo de sociedad se convierte la organización al ser legalmente constituida, asumiendo unas características que la identifican y unas responsabilidades legales y fiscales ante el Estado. 
 
 
-    .row.justify-content-evenly.align-items-center.p-2
+    .row.justify-content-evenly.align-items-center
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='¿Qué son las sociedades?' numero='1')
@@ -236,7 +236,7 @@
                 p.mb-0  En este tipo de sociedad, todos los socios, en nombre colectivo, responderán solidaria e ilimitadamente por las operaciones sociales.
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_10.png')
-    .row.justify-content-evenly.align-items-center.p-2
+    .row.justify-content-evenly.align-items-center
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_8.png').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
@@ -263,10 +263,10 @@
       
     .row.aling.mb-2   
       .col-lg-10(data-aos="zoom-in-down")
-        .cajon.color-custom-1.p-4.mb-4.p-4
+        .cajon.color-custom-1.p-2.mb-4
           .row.justify-content-around.align-items-center
-            .col-lg-10
-              .row.justify-content-between.align-items-center
+            .col-lg-12
+              .row.justify-content-between.align-items-center.p-3
                 .col.mb-3.mb-sm-0
                   h4 Empresa de una persona o Empresa unipersonal
                   p.mb-0 Es posible constituir una empresa con un solo socio, que conforme una persona jurídica distinta a ese único socio, pero técnicamente no es una sociedad unipersonal. La sociedad unipersonal no existe como consecuencia de la creación de las S.A.S., lo que existe es la empresa unipersonal, creada por la Ley 222 de 1995, que no tiene la característica de sociedad (Gerencia.com, 2022).
@@ -285,7 +285,7 @@
                 .col-lg-2
                   img.mx-1(src="@/assets/curso/images/tema1/ico_2.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h3 Tipos de sociedades en Colombia
+                  h5 Tipos de sociedades en Colombia
                   p.mb-1.text Amplía el conocimiento sobre los tipos de sociedades en Colombia.
                 .col-md-auto
                   a.boton.color-acento-botones(href=" https://www.youtube.com/watch?v=IvTbUlDBrrg)" target="_blank")
@@ -304,7 +304,7 @@
                 .col-lg-2
                   img.mx-1(src="@/assets/curso/images/tema1/ico_3.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h3 Consolidado de sociedades en Colombia
+                  h5 Consolidado de sociedades en Colombia
                   p.mb-1.text El siguiente cuadro comparativo permite analizar cada una de las sociedades de acuerdo con sus características. Recurso que también puede ser consultado en el material de apoyo.
                 .col-md-auto
                   a.boton.color-custom-6.texto-blanco(:href="obtenerLink('downloads/Consolidado de sociedades en Colombia.pdf')" target="_blank")
@@ -319,11 +319,11 @@
 
     p.mb-5 Cuando se mencionan áreas funcionales de la empresa, se hace referencia a todas las unidades, áreas o departamentos que son necesarios para el funcionamiento u operación de la organización, entre las cuales se dividen las responsabilidades, bien sea por funciones o especialidad. A continuación, se exponen las principales.
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-primario.mb-5
       .py-4.py-md-5.bg-rosa.p-4(titulo="Dirección" :icono="require('@/assets/curso/images/tema1/icon.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Dirección
+            h4 Dirección
             p.mb-3  El área de dirección en una organización es conocida como alta gerencia, gerencia, dirección, administración, entre otros. En ella, se define el rumbo de la empresa, es decir, se establece el qué quiere lograr a través de su operación  u objetivos organizacionales, se toman decisiones importantes para el rumbo de la misma y se dirigen las operaciones que debe desarrollar para alcanzar lo planteado. 
 
             p.mb-0 Esta área funcional dentro de la organización también se reconoce como la primera etapa del proceso administrativo, lo que configura el liderazgo y diseño de la empresa, por lo cual tiene una estrecha relación con la última etapa del proceso administrativo, denominada control, que en síntesis es donde se evalúa el desempeño organizacional de la medición de resultados y se toman nuevas decisiones para iniciar de nuevo un enfoque, camino o estrategia.
@@ -335,7 +335,7 @@
       .py-4.py-md-5.bg-rosa.p-4(titulo="Recursos humanos" :icono="require('@/assets/curso/images/tema1/icon_2.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Recursos humanos
+            h4 Recursos humanos
             p.mb-3 Esta área cobra gran importancia por la magnitud de su responsabilidad frente al logro de objetivos. Se dedica a  buscar, reclutar, seleccionar, contratar, entrenar y formar el talento humano de la organización. También, define las estrategias para que la productividad de la empresa sea al máximo, y esto va ligado a los planes de beneficios orientados al personal o equipo de trabajo de toda la organización.
             p.mb-0 Adicionalmente, es responsable de todo lo relacionado con las actividades de tipo administrativo, la comunicación interna, la capacitación y los aspectos legales del personal a cargo, entre otros.
           .col-md-4
@@ -345,7 +345,7 @@
       .py-4.py-md-5.bg-rosa.p-4(titulo="Producción" :icono="require('@/assets/curso/images/tema1/icon_3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Producción
+            h4 Producción
             p.mb-0 Esta área está ligada directamente a la razón de ser de la empresa o misión. En ella se elaboran o producen los bienes y servicios que la empresa comercializa, esto ocurre a través de la transformación de la materia prima en productos terminados. Además, es responsable de asegurar el óptimo aprovechamiento de los recursos en el proceso productivo, se encarga de controlar la calidad de los productos elaborados con el fin de cumplir con las expectativas del cliente y de adquirir los insumos en las condiciones y calidad requeridas, así como los mejores  proveedores.
         
           .col-md-4
@@ -356,7 +356,7 @@
       .py-4.py-md-5.bg-rosa.p-4(titulo="Finanzas o contabilidad" :icono="require('@/assets/curso/images/tema1/icon_4.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Finanzas o contabilidad
+            h4 Finanzas o contabilidad
             p.mb-0 En el área de finanzas, se registran todas las operaciones que realiza la empresa. Tiene a su cargo todos los movimientos de dinero que se producen dentro y fuera de la misma. En otras palabras, esta área es responsable de los recursos monetarios y financieros que posee la empresa. Aquí se maximizan los recursos obtenidos a través de las inversiones y se realizan los pagos por los diferentes conceptos requeridos para garantizar su operación, como arrendamientos, publicidad, colaboradores y proveedores. En esta área, se elaboran los informes financieros y se cumple con las obligaciones fiscales.
         
           .col-md-4
@@ -365,10 +365,10 @@
 
         
       
-      .py-4.py-md-5.bg-rosa.p-4(titulo="The splendor of the mystery" :icono="require('@/assets/curso/images/tema1/icon_5.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="Marketing y ventas" :icono="require('@/assets/curso/images/tema1/icon_5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Marketing y ventas
+            h4 Marketing y ventas
             p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de marketing que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
 
             p.mb-0 Se encarga de planificar la mezcla de <i>marketing</i> en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
@@ -378,10 +378,10 @@
               img(src='@/assets/curso/images/tema1/img_tab_5.png', alt='Texto que describa la imagen')
 
 
-    h3 Otras áreas
+    h5 Otras áreas
 
     .row.justify-content-evenly.align-items-star.p-2
-      .col-lg-8(data-aos="fade-right")
+      .col-lg-7(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Innovación")
             .col-md-9.mb-4.mb-md-0
@@ -398,7 +398,7 @@
               p.mb-3  Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
             .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_11.png' alt='', style="width:500px; display:block; margin:auto 0;")
 
     Separador
@@ -420,18 +420,16 @@
       span  Causas del diagnóstico organizacional
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12(data-aos="fade-left") 
-        img.my-3(src='@/assets/curso/images/tema1/fig_4_1.svg')
+        img.my-3(src='@/assets/curso/images/tema1/fig_4_1.png')
 
-    .row.align-items-center.aling.my-3
+    .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="zoom-in-down")
-         .cajon.color-custom-1.p-4.mb-4.p-4
+         .cajon.color-custom-1.p-3.mb-4
           .row.justify-content-center.align-items-center
-            .col
-              .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_fig.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
-                .col.mb-3.mb-sm-0
-                  p.mb-1.text En cualquiera de estas causas, el diagnóstico organizacional se hace necesario, debido a que, cuando una organización nace, se estructura con la medida justa de procesos y personal para atender la demanda de ese momento, pero cuando ella empieza su crecimiento, los procesos, el personal e incluso la infraestructura pueden ser insuficientes. 
+            .col-6.col-lg-2.mb-4.mb-lg-0
+              img.mx-5(src="@/assets/curso/images/tema1/ico_fig.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+            .col-lg-10
+              p.mb-0 En cualquiera de estas causas, el diagnóstico organizacional se hace necesario, debido a que, cuando una organización nace, se estructura con la medida justa de procesos y personal para atender la demanda de ese momento, pero cuando ella empieza su crecimiento, los procesos, el personal e incluso la infraestructura pueden ser insuficientes. 
 
       p.mb-3 De igual forma, sucede cuando una organización se ha deteriorado, quiere decir que no ha realizado renovación en ningún aspecto durante su trayectoria en el mercado, por lo cual es posible que tienda a desaparecer, pues puede ser que hasta su producto y estrategias sean obsoletas. 
 
@@ -439,7 +437,7 @@
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-0
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-5(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/img.png')
+        img.mt-3(src='@/assets/curso/images/tema1/img.png').mb-3
       .col-lg-5(data-aos="fade-right") 
 
           p.mb-3  De otra parte, cuando la organización está inmersa en un entorno bastante complejo, es necesario que mantenga cierta cercanía con ese grado de complejidad, de manera que, al incrementar esa misma complejidad en el entorno, es decir, cambios de gobierno o cambio de política ,entre otros, estará obligada a aumentar su complejidad interna, en otras palabras, a desarrollar mayor fortaleza en los procesos, o contracción de la producción, si es el caso; en fin, diferentes cambios drásticos que deba afrontar, para lo cual requiere estar preparada y lo cual genera la habilidad de adaptación constante en congruencia con los cambios que se presentan en el contexto.
@@ -463,7 +461,7 @@
           img(src='@/assets/curso/images/tema1/ico_4.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
             .p-4
-              h2.text-center.mb-4 Herramientas conceptuales
+              h4.text-center.mb-4 Herramientas conceptuales
               p.text-center.mb-4 Es indispensable consolidar conceptos y fundamentos que promuevan la comprensión acerca del funcionamiento de las organizaciones y su comportamiento, lo que hace la diferencia entre empresas eficientes e ineficientes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -471,15 +469,15 @@
           img(src='@/assets/curso/images/tema1/ico_5.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-8
             .p-4
-              h2.text-center.mb-5 Técnicas y procesos de medición
+              h4.text-center.mb-5 Técnicas y procesos de medición
               p.text-center.mb-4 Es necesario definir una herramienta que recoja información acerca de la operación empresarial eficiente, con el fin de validar su efectividad e iniciar acciones en su desempeño, actividades y el impacto sobre sus integrantes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_6.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
-          .tarjeta.color-custom-7
+          .tarjeta.color-custom-13
             .p-4            
-              h2.text-center Tecnologías de cambio
+              h4.text-center Tecnologías de cambio
               p.text-center.mb-0 Debido al conocimiento acerca de la operatividad de la empresa y la información acerca de su funcionamiento, mediante herramientas para consolidar información conveniente, es posible implementar técnicas y procedimientos específicos para modificar pautas de comportamiento aportando a la eficiencia.
 
 
@@ -498,7 +496,12 @@
       span   Proceso y elementos de un diagnóstico
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
-        img.mt-3(src='@/assets/curso/images/tema1/fig_5.svg')
+        img.mt-3(src='@/assets/curso/images/tema1/fig_5.png')
+
+    .row.align-items-center.justify-content-center
+      .col-lg-10
+        .jumbotron-3.p-4
+          p.text-center.mb-0 Es necesario construir el plan de trabajo, con el paso a paso del proceso a realizar, para evitar inconvenientes en la búsqueda de información; se debe realizar de  manera ordenada, que, a su vez, permita evaluar la confiabilidad y validez tanto del proceso mismo como de la información recolectada.
     Separador
 
     #t_1_4.titulo-segundo
@@ -507,10 +510,10 @@
     p.mb-3 Las matrices diagnósticas han sido diseñadas con el fin de condensar diferentes factores claves de éxito de una organización, para medirlos o evaluarlos desde la realidad de su desempeño y operación empresarial. Ellas son instrumentos poderosos para la gestión empresarial, que permiten recoger información sobre diferentes aspectos de la empresa, para que luego, a través de la aplicación de otras estrategias o simplemente del análisis del conjunto de información, se pueda construir una conclusión. A continuación, se desarrollan las más relevantes.
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
-      .py-4.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz FODA")
+      .py-4.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Matriz FODA")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-6.mb-3.mb-md-0
-              h5 Matriz FODA
+              h4 Matriz FODA
               p.mb-3 FODA es la sigla de fortalezas, oportunidades, debilidades y amenazas. Es un  instrumento complementario al perfil de capacidades internas (PCI), al perfil de oportunidades y amenazas en el medio (POAM) y al análisis de competitividad (perfil competitivo PC). El análisis FODA permite dilucidar la capacidad de la organización para desempeñarse en el ámbito en el que está vinculada.
 
               p.mb-0 El estudio FODA nace como respuesta a la necesidad de encontrar estrategias que compaginen con las tendencias del ambiente, a partir de las potencialidades, riesgos potenciales, así como de las capacidades internas que posee la empresa. Este estudio facilita la formulación de estrategias para redituar sus fortalezas, prepararse acerca de los efectos de sus debilidades, recurrir a sus potencialidades y prepararse para el impacto de la aparición de amenazas. Cuanto más competitiva sea la empresa en el medio al que pertenece, más oportunidades tendrá de ser exitosa, este conocimiento de competencia conlleva consecuencias maravillosas para la implementación de una estrategia efectiva.  (Pedraza, 2015).
@@ -534,7 +537,7 @@
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz de  PCI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Matriz de  PCI
+            h4 Matriz de  PCI
             p.mb-3 El Perfil de Capacidades Internas (PCI) es un instrumento para realizar un diagnóstico de las organizaciones  que permite evaluar las fortalezas y las debilidades analizadas, donde se reflejan los factores internos que afectan o aportan a su normal funcionamiento.  Su implementación consiste en determinar las áreas estratégicas y los factores críticos de ellas a evaluar, con el fin de aplicar la matriz y realizar un análisis por área, para luego consolidarlo por organización (Pedraza, 2015). 
             p.mb-3 Es una herramienta para realizar diagnóstico estratégico en una empresa involucrando todos los factores que afectan su operación corporativa. El PCI evalúa cinco categorías, a saber: capacidad directiva, capacidad competitiva, capacidad financiera, capacidad tecnológica y capacidad del talento humano.
             p.mb-0 El perfil de fortalezas y debilidades se representa gráficamente mediante calificaciones de la fortaleza o debilidad con relación a su grado (A M B), para luego ser valorada con respecto a su impacto en la escala de alto (A), medio (M), bajo (B). 
@@ -555,7 +558,7 @@
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las cinco fuerzas")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Modelo de las cinco fuerzas
+            h4 Modelo de las cinco fuerzas
             p.mb-3 El modelo estratégico de las cinco fuerzas de Michael Porter, estudia si es productivo crear una organización en un determinado sector con base en el mercado, y se concentra en realizar un análisis de la competitividad como herramienta estratégica gerencial. 
 
             p.mb-3 A través de este modelo, Porter se plantea conocer el estado de la empresa en el sector y el atractivo de la misma, que se determina por las siguientes cinco fuerzas:
@@ -583,7 +586,7 @@
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz EFI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Matriz EFI
+            h4 Matriz EFI
             p.mb-3 La matriz de Evaluación de los Factores Internos (EFI) busca consolidar y analizar las fortalezas y debilidades más relevantes de la organización. Es una herramienta para formular estrategias y se implementa asignando un peso relativo a cada factor, de 0, equivalente a sin importancia, va ascendiendo hasta llegar a 10, que significa muy importante, de tal manera que la suma de todos los pesos asignados a los factores sea igual a 100%. 
 
             p.mb-3 Así mismo, es importante aclarar que se asigna una calificación entre 1 y 2 a cada una de las debilidades y entre 3 y 4 a las fortalezas, con el fin de indicar el factor que este representa, así:
@@ -610,7 +613,7 @@
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz MEFE")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Matriz MEFE
+            h4 Matriz MEFE
             p.mb-3 La Matriz de evaluación del factor externo (EFE) tiene como fin develar la posición estratégica que tiene la organización en el ámbito al que pertenece. En ella, se resumen y evalúan las oportunidades y amenazas de la empresa. Se implementa elaborando una lista de oportunidades y amenazas del medio, se evalúa la importancia relativa de cada una para el desempeño de la unidad empresarial, y se asigna un rango, teniendo en consideración que las oportunidades suelen tener pesos más elevados que las amenazas. Se asigna a criterio propio una calificación de 1 a 4 para cada uno de los factores concluyentes del éxito, con el fin de subrayar  si las estrategias actuales responden con pertinencia al factor crítico que corresponde y qué está haciendo la misma para enfrentarlo. Este es un ejemplo del rango y calificación que se debe asignar: 
 
             p 4: respuesta superior, es decir, la empresa está trabajando duro.  
@@ -635,7 +638,7 @@
       .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz POAM")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
-            h5 Matriz POAM
+            h4 Matriz POAM
             p.mb-3 La Matriz POAM significa perfil de oportunidades y amenazas del medio. Es un método que ayuda a identificar y evaluar amenazas y oportunidades potenciales de una empresa. Cuando un grupo estratégico evalúa su impacto e importancia, se identifica si la amenaza causada por un aspecto en el entorno se configura en amenaza u oportunidad.
 
             p.mb-3 Para la elaboración de la POAM, se necesita:

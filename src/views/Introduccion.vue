@@ -30,7 +30,7 @@
 
    
       .col-lg-6(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/img_1_intro.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        img.mt-3(src='@/assets/curso/images/tema1/img_1_intro.png')
 
 
     .row.aling.my-3   
@@ -38,7 +38,7 @@
         .cajon.color-custom-1.mb-4.p-2
           .row.justify-content-around.align-items-center
             .col-lg-11
-              p Este componente formativo, además de desarrollar las temáticas descritas anteriormente, cerrará exponiendo cada uno de los instrumentos de recolección de información que son fundamentales para realizar diagnósticos o investigaciones orientadas a la implementación de un nuevo proyecto. 
+              p.mb-0 Este componente formativo, además de desarrollar las temáticas descritas anteriormente, cerrará exponiendo cada uno de los instrumentos de recolección de información que son fundamentales para realizar diagnósticos o investigaciones orientadas a la implementación de un nuevo proyecto. 
 
 
 

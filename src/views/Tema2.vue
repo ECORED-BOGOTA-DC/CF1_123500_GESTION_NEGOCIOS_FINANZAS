@@ -15,30 +15,30 @@
       h5  Figura 6.
       span  Elementos de un plan de trabajo 
 
-    .row.justify-content-around.align-items-center.mb-0(data-aos="zoom-in-right")
+    .row.justify-content-around.align-items-center(data-aos="zoom-in-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar.center
-          img(src='@/assets/curso/images/tema2/icon_1.svg' alt='', style="width:150px; display:block; margin:auto -2rem ;")
-          .tarjeta
+          img(src='@/assets/curso/images/tema2/icon_1.svg' alt='', style="width:170px")
+          .tarjeta.mx-4
             .p-4
-              h2.text-center.mb-4 Método
+              h4.text-center.mb-4 Método
               p.text-center.mb-5 El método es el procedimiento general.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema2/icon_2.svg')
+          img(src='@/assets/curso/images/tema2/icon_2.svg', style="width:170px;")
           .tarjeta
             .p-4
-              h2.text-center.mb-4 Técnica
+              h4.text-center.mb-4 Técnica
               p.text-center.mb-5 La técnica se refiere a las maneras de abordar distintas actividades de forma estandarizada.
 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema2/icon_3.svg')
+          img(src='@/assets/curso/images/tema2/icon_3.svg' , style="width:170px;")
           .tarjeta
             .p-4
-              h2.text-center Instrumentos
+              h4.text-center Instrumentos
               p.text-center Los instrumentos son los mecanismos  para recoger la información de forma direccionada y organizada.
 
       .row.align-items-center.justify-content-center
@@ -110,7 +110,7 @@
     Separador 
 
     #t_2_1.titulo-segundo
-      h3 2.1 Tipos
+      .h2 2.1 Tipos
     
     p.mb-3 Existen diferentes instrumentos para recopilar información que son usados según su propósito y de acuerdo con el diseño que se realice, el cual debe ser validado y puesto a prueba para comprobar su pertinencia y eficiencia en cuanto al logro del objetivo propuesto. Se considera que la clasificación de los instrumentos para recolectar información es determinada según el tipo de información a recolectar, es decir, si es cuantitativa o cualitativa.
 
@@ -225,7 +225,7 @@
     Separador 
 
     #t_2_2.titulo-segundo
-      h3 2.2 Técnicas   
+      .h2 2.2 Técnicas   
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1          
     .row.align-items-center.justify-content-center.mb-5
@@ -276,11 +276,11 @@
           .list__txt    
             p.m-top Comunidades <i>online.</i> 
           
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0
       
-    .row.aling.my-5   
+    .row.aling
       .col-lg-12(data-aos="zoom-in-down")
-        .cajon.color-custom-1.p-4.mb-4.p-4
+        .cajon.color-custom-1.p-4.mb-4
           .row.justify-content-around.align-items-center
             .col-lg-12
               .row.justify-content-between.align-items-center
@@ -290,9 +290,9 @@
     .row.align-items-center.align-items-center.bg-rosa.mb-3
       .col-lg-12
         PasosB.color-acento-botones.py-5.px-4
-          .row(titulo="1")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Encuesta
+              h5 Encuesta
               p La encuesta es un instrumento de investigación que busca describir, analizar y establecer las relaciones entre variables en poblaciones o grupos particulares. Es propicia cuando se desea obtener el conocimiento colectivo o de tipos de participantes, como instituciones o fenómenos. Se utiliza en procesos en que se requiere conocer un asunto u objetivo de investigación de manera amplia, por lo que se convierte en el instrumento más apto para alcanzar una comunidad. Pueden ser orales o escritas.
           
             .col-md-6
@@ -300,9 +300,9 @@
                 img(src='@/assets/curso/images/tema2/img_13.png', alt='Texto que describa la imagen')
 
 
-          .row(titulo="2")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Observación
+              h5 Observación
               p.mb-3  Técnica de recolección de información que consiste en la inspección y estudio de los hechos u objeto de investigación, tal como ocurren en la realidad, a través del uso de los sentidos (con o sin ayuda de soportes tecnológicos), de acuerdo con los requerimientos de estudio y a partir de las categorías perceptivas definidas desde las teorías científicas que apoyan la investigación. Los tipos de técnicas de observación existentes son:
 
               p Directa.
@@ -315,9 +315,9 @@
                 img(src='@/assets/curso/images/tema2/img_14.png', alt='Texto que describa la imagen')
 
 
-          .row(titulo="3")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Entrevistas
+              h5 Entrevistas
               p.mb-3  Es una herramienta principalmente para la recolección de datos cualitativos, aunque se precisa que, de acuerdo con el diseño que se realice, puede ser utilizada para la recolección de datos cuantitativos. Es de uso cotidiano como instrumento para recopilar información debido a su flexibilidad. Las interacciones que se generan en una entrevista pueden presentarse de forma estructurada o semiestructurada para generar ideas y conceptos.
 
               p.mb-3 En el diseño de la entrevista, se deben tener en cuenta aspectos como la exhaustividad, el tacto, la precisión, la exactitud y la confidencialidad. Las entrevistas requieren habilidades especializadas por parte del entrevistador, que tendrá que tener una buena relación con el entrevistado para garantizar que realmente se recolectan y transcriban eficazmente un conjunto de datos cualitativos muy detallados y válidos.
@@ -332,9 +332,9 @@
 
               p.mb-0 Este tipo de instrumentos se diseña con preguntas abiertas, donde la respuesta no está condicionada sino que se tiene la facilidad de responder a criterio propio y con su propio lenguaje. También se puede elaborar con preguntas cerradas si el objeto de aplicación del instrumento requiere respuestas precisas, que develen la causa de una situación o raíz de un problema.
 
-          .row(titulo="4")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Recopilación/revisión/análisis documental
+              h5 Recopilación/revisión/análisis documental
               p.mb-3 El fundamento de una investigación se origina en la revisión o análisis de fuentes bibliográficas, las cuales pueden ser personales, como testimonios, entrevistas grupales, institucionales, formales o informales. En estas fuentes, se encuentran diferentes tipos de información de incalculable valor, que pueden consolidarse como piezas claves para el desarrollo del diagnóstico o investigación. Para realizar el análisis documental, es necesario:
 
               p.mb-0 Realizar un inventario de documentos existentes y disponibles.
@@ -347,27 +347,27 @@
               figure
                 img(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen')
 
-          .row(titulo="5")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 <i>Focus group</i>
+              h5 <i>Focus group</i>
               p Es una herramienta o instrumento cualitativo de recolección de datos. Consiste en realizar una entrevista en grupo, con el objetivo de recoger información sobre un número específico de preguntas. Es muy útil para recoger información de manera inmediata y espontánea, bajo la instrucción de un moderador, el cual socializa la herramienta y presenta el objetivo de su aplicación.
           
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/img_18.png', alt='Texto que describa la imagen')
 
-          .row(titulo="6")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Autorreportaje
+              h5 Autorreportaje
               p Es una técnica donde el mismo informante reportará su situación o experiencia solicitada por el investigador. Para desarrollar el autorreportaje, es necesario elaborar un guion con preguntas puntuales y fundamentales relacionadas con el suceso o vivencia.
           
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen')
 
-          .row(titulo="7")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Categorización. Triangulación y teoría fundamentada
+              h5 Categorización. Triangulación y teoría fundamentada
               p.mb-3 Consiste en realizar un proceso a través del cual se busca reducir la información de la investigación, con el fin de describirla de manera conceptual y que esta responda a una estructura sistemática e inteligible para las personas y que, a su vez, sea significativa. Para que esta información conserve su carácter en este proceso de categorización, es necesario que el investigador conserve los temas tratados en la investigación, ya que esto permite mantener los resultados de la investigación encontrados por su autor.
               p.mb-3 También es pertinente mencionar que esta herramienta es un proceso cognitivo complejo de clasificación según las semejanzas y diferencias encontradas, que responden a unos criterios previamente determinados, es decir, la agrupación de información, de acuerdo con sus características, en capítulos, apartados o conjuntos y subconjuntos a los que se les debe asignar nombre. Las categorías se dividen en tres clases: 
 
@@ -379,9 +379,9 @@
               figure
                 img(src='@/assets/curso/images/tema2/img_21.png', alt='Texto que describa la imagen')
 
-          .row(titulo="8")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Triangulación
+              h5 Triangulación
               p.mb-3 Cumple con la función de validar la información obtenida  y consiste en el uso de dos o más aproximaciones en el análisis de un mismo grupo de datos, con el propósito de realizar su validación. Se lleva a cabo comparando el resultado del análisis de datos, usando diferentes técnicas de análisis cualitativo para evaluar en forma similar los resultados disponibles. Sirve para identificar patrones similares y así verificar los hallazgos. Existen los siguientes tipos de triangulación:
 
               p.mb-3 La triangulación teórica consiste en el uso de diferentes perspectivas o diferentes tópicos esenciales en la información analizada.
@@ -393,9 +393,9 @@
             .row
               p.mt-3 La triangulación metodológica puede implicar una triangulación dentro de métodos que consiste en la combinación de dos o más resultados de recolecciones de datos con similitudes aproximadas en el mismo estudio, es decir, un mismo aspecto estudiado a partir de dos instrumentos de recolección de información  diferentes. Cada estudio se debe codificar y analizar separadamente, para luego compararlos con el fin de validar los hallazgos.
 
-          .row(titulo="9")
+          .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h3 Comunidades online
+              h5 Comunidades online
               p.mb-3 Llamadas también Insight Community, herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés y así conocer sus comentarios, observaciones y sugerencias, por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
 
               p.mb-0 Este instrumento es muy valorado por las empresas, pues a través de él las organizaciones encuentran información inmediata, lo cual les permite acceder al amplio conocimiento que poseen los participantes.
@@ -411,19 +411,19 @@
     .row.mb-3
       .col-lg-4(data-aos="fade-left") 
         .jumbotron-1.mb-3.p-4
-          h3 Comunidades de marca
+          h4 Comunidades de marca
           p.mb-0 En este tipo de comunidad, se vinculan personas que aman la marca y quieren contribuir con sus aportes para su retroalimentación. Estos tipos de participantes son considerados la población objetivo, son leales, lo que hace que sus aportes sean valiosos porque corresponden a la realidad debido a su sinceridad.
         .jumbotron-2.p-4
-          h3 Comunidades genéricas
+          h4 Comunidades genéricas
           p.mb-0 Están integradas por personas con diversos perfiles, que participan en diferentes áreas, dependiendo del perfil profesional o personal que requiera la investigación. Aquí se utilizan encuestas para perfilar y segmentar los participantes en estudios específicos.
       .col-lg-4(data-aos="fade-left") 
-          img.mt-3(src='@/assets/curso/images/tema2/img_7.svg')
+          img.mt-3(src='@/assets/curso/images/tema2/img_7.svg').mb-3
       .col-lg-4(data-aos="fade-left") 
         .jumbotron-2.mb-3.p-4
-          h3 Comunidades temáticas o de nichos
+          h4 Comunidades temáticas o de nichos
           p.mb-0 Son comunidades que buscan información de manera gratuita, por tanto, no necesariamente pertenecen a una marca, sino que su enfoque son temas específicos, atractivos para ciertos públicos, los cuales pueden ser ofrecidos a industrias interesadas en ese tema especialmente.
         .jumbotron-1.p-4
-          h3 Comunidades de clientes
+          h4 Comunidades de clientes
           p.mb-0 Son clientes de la marca que participan en diferentes actividades, como fotos o lluvias de ideas sobre nuevos productos y servicios.
 
     h3.mb-3 Técnica e instrumentos de recolección de información
@@ -436,8 +436,10 @@
           span Definiciones de empresa
         img.mt-3(src='@/assets/curso/images/tema2/fig_2.svg')(data-aos="zoom-in-right")
 
+    Separador
+
     #t_2_3.titulo-segundo
-      .h4 2.3 Grupos de interés
+      .h2 2.3 Grupos de interés
     
     p.mb-3 Corresponden a grupos de personas dentro de una organización que tienen objetivos propios, ellos son los accionistas o inversionistas, directivos y empleados, que mantienen un vínculo con la empresa como resultado del planteamiento de objetivos estratégicos, los cuales inciden en la labor que cada uno desempeña y en los objetivos que deben alcanzar desde su puesto de trabajo; de ahí la importancia de gestionarlos de manera estratégica y proactiva.
 
@@ -461,9 +463,10 @@
           figure
             img(src='@/assets/curso/images/tema2/img_8.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
 
-    p.mb-5 Los grupos de interés se clasifican de acuerdo con su relevancia y el posible impacto que tienen dentro de la organización. De acuerdo con este criterio, tienen las siguientes características:
-
-    .row.justify-content-evenly.align-items-center.p-2
+    p.mb-3 Los grupos de interés se clasifican de acuerdo con su relevancia y el posible impacto que tienen dentro de la organización. De acuerdo con este criterio, tienen las siguientes características:
+    
+    h5 Características de los grupos de interés o stakeholders
+    .row.justify-content-evenly.align-items-center
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Legitimidad' numero='1')
@@ -532,9 +535,9 @@
       .col-lg-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema2/img_9.png')
     
-    .row.justify-content-evenly.align-items-center.p-2
+    .row.justify-content-evenly.align-items-center
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema2/img_25.svg' alt='', style="width:500px; display:block; margin:auto 0;").mb-3
+        img(src='@/assets/curso/images/tema2/img_25.svg').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Grupos de interés externos' numero='1')
@@ -565,7 +568,7 @@
 
         p.mb-0 Es una representación gráfica del tipo de relación existente entre los grupos de interés y el proyecto u organización. Se elabora  con el fin de comprender los diversos niveles de influencia y su relevancia en la empresa. Asimismo, permite realizar monitoreo de la evolución de todas las relaciones a largo plazo y evidencia la influencia que los grupos de interés ejercen sobre la organización o que la empresa ejerce sobre ellos, tal como se presenta en la figura.
       .col-lg-5(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema2/img_10.svg')
+        img.mt-3(src='@/assets/curso/images/tema2/img_10.png')
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")

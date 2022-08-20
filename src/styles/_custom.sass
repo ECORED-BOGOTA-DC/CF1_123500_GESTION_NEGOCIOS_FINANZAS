@@ -41,6 +41,12 @@
 .cs
   overflow-y: hidden
 
+.container-top
+  border-radius: 5px 5px 5px 5px
+
+.container-bottom 
+  border-radius: 32px 32px 32px 32px
+
 .titulo-principal__numero 
   min-width: 45px
   height: 45px
@@ -55,11 +61,6 @@
   line-height: 1.2
   color: #000
 
-
-.container-top
-  border-radius: 0px 0px 0 0
-.container-bottom
-  border-radius: 0 0 0px 0px  
 
 .color-custom
   background-color: #CEE2DB
@@ -92,7 +93,7 @@
   background-color: #E1EFE3
 
 .color-custom-8
-  background-color: #E1FBFF
+  background-color: #E1FBFF 
 
 .color-custom-9
 	background-color: #359547
@@ -111,6 +112,9 @@
 	background-color:  #C6F8FF
 	&::before
 		background-color: #3AE3FE
+
+.color-custom-13
+  background-color: #EAEFF3
 
 .fondo-1
   background-image: url('../assets/curso/images/tema1/back_1_4.svg')
@@ -144,6 +148,10 @@
   background-color: #FEF5E5
   border-radius: 30px
 
+.jumbotron-3
+  background-color: #37D1EA
+  border-radius: 10px
+
 
 .aling
   justify-content: center
@@ -169,6 +177,9 @@
   background-color: #FFF
 .mg-top-1
   margin-top: -50px
+
+.mg-top-2
+  margin-top: -20px
 
 
 .linea-tiempo-d.color-secundario.especial
@@ -217,6 +228,17 @@
   background: #fff
   background-color: rgba(255,255,255,0.1)
 
+.tarjeta--gris 
+  background-color: #E8E8E8
+
+.acordion
+  .tarjeta--gris
+    background-color: #E8E8E8
+    &.acordion__activo
+      background-color: #F6F6F6
+
+
+
 .bg_grad-02
   background-color: #E1EFE3
   background-repeat: no-repeat
@@ -225,14 +247,14 @@
     margin-top: -10px
     background-repeat: no-repeat
     background-size: cover
-    width: 390px;
-    margin-left: -12px;
+    width: 390px
+    margin-left: -12px !important
   @media (max-width: 397px)
     margin-top: -10px
     background-repeat: no-repeat
     background-size: cover
     width: 350px
-    margin-left: -12px;
+    margin-left: -21px !important
   @media (max-width: 992px)
     width: 390px
     margin-left: -24px
@@ -276,6 +298,7 @@
 
 .bg-rosa
   background-color: #FEF5E5
+  border-radius: 15px
 
 .bg-color-1
   background-image: url("../assets/curso/images/tema1/back_ico_title.svg") !important
