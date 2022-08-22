@@ -213,23 +213,23 @@
  
                 p.mb-0 En Colombia, se pueden constituir diferentes tipos de sociedades, tales como: sociedad limitada, empresa unipersonal, sociedad anónima, sociedad colectiva, sociedad por acciones simplificada S.A.S., sociedad en comandita, entre otras. Cada una de ellas tiene unas características y responsabilidades diferentes.
 
-          .row(titulo='Sociedad Limitada' numero='2')
+          .row(titulo='Sociedad limitada' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
 
                 p.mb-3  Este tipo de sociedad se caracteriza porque la responsabilidad de sus socios está relacionada con el monto o valor de sus aportes, lo cual define su nivel de responsabilidad. Es decir, cada socio es responsable de las decisiones tomadas en la empresa y sus consecuencias respondiendo por ello hasta el monto de sus aportes.
  
           
-          .row(titulo='Sociedad Anónima' numero='3')
+          .row(titulo='Sociedad anónima' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3 Esta sociedad se forma por la unión de mínimo cinco socios, sin límite o máximo impuesto. Se constituye cuando los aportes de capital se realizan mediante la compra de acciones y su responsabilidad corresponde al monto o valor de sus aportes.
-          .row(titulo='Empresa Asociativa de Trabajo' numero='4')
+          .row(titulo='Empresa asociativa de trabajo' numero='4')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p Este tipo de empresa es particular porque está integrada por socios quienes aportan su capacidad laboral por tiempo indefinido y su vinculación con este tipo de organización no es laboral sino comercial. Su objeto es producir, comerciar y distribuir bienes básicos de consumo familiar o la prestación de servicios individuales o conjuntos de sus miembros. La personería jurídica de este tipo de empresas asociativas será reconocida desde su inscripción en la Cámara de Comercio (CCC, 2020). 
           
-          .row(titulo='Sociedad Colectiva' numero='5')
+          .row(titulo='Sociedad colectiva' numero='5')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
   
