@@ -74,7 +74,7 @@
           p.mb-3 Al estar compuesta por áreas funcionales, cada una de ellas aporta al desarrollo integral de la empresa, lo que, a su vez, redunda en un beneficio regional e incluso nacional si las magnitudes de sus innovaciones o transformaciones permiten alcanzar grandes retos o resolver grandes problemas, despertando niveles elevados de interés, como la inversión extranjera, generando de esta manera el ingreso de divisas al país, lo cual beneficia a todo el territorio nacional.
 
           p.mb-0 Ahora bien, las características de la empresa son los rasgos que la identifican como ente productivo y económico que ofrece bienes y servicios. Esta inicia sus actividades, como se ha mencionado, con gran expectativa de satisfacer las necesidades de los clientes y poder llegar a fidelizarlos, generando así ingresos que le permitan ampliar su capacidad productiva, lanzar nuevas líneas de productos, crecer y consolidarse en el sector al que pertenezca. La organización debe estar cargada de dinamismo para adaptarse a los cambios que el entorno le presente y coordinar sus recursos para el logro de los objetivos. Por tanto, las siguientes pueden identificarse como sus características.
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mg-top-1.mb-5 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
@@ -92,7 +92,7 @@
       .h2 1.1 Clasificación 
 
 
-    p.mb-3 La clasificación o tipologías de las empresas tiene su origen en determinados criterios. A continuación, se desarrolla cada uno de ellos.
+    p.mb-5 La clasificación o tipologías de las empresas tiene su origen en determinados criterios. A continuación, se desarrolla cada uno de ellos.
 
     .row.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-4.bg-color-1.px-3.py-1
@@ -112,26 +112,26 @@
             caption Cifras de ingresos por actividades ordinarias anuales en millones de pesos colombianos de 2019 
             thead
               tr      
-                th.th Tamaño
-                th.th Manufactura
-                th.th Servicios
-                th.th Comercio
+                th.th.text-table-1 Tamaño
+                th.th.text-table-1 Manufactura
+                th.th.text-table-1 Servicios
+                th.th.text-table-1 Comercio
             tbody
               tr
-                th.th-1  Micro
-                td.th-1  Hasta 811
-                td.th-1  Hasta 1.131   
-                td.th-1  Hasta 1.535  
+                th.th-1.text-table Micro
+                td.th-1.text-table  Hasta 811
+                td.th-1.text-table  Hasta 1.131   
+                td.th-1.text-table  Hasta 1.535  
               tr 
-                th.th-2 Pequeña
-                td.th-2 Desde 811 hasta 7.027
-                td.th-2 Desde 1.131 hasta 4.523
-                td.th-2 Desde 1.535 hasta 14.781
+                th.th-2.text-table Pequeña
+                td.th-2.text-table Desde 811 hasta 7.027
+                td.th-2.text-table Desde 1.131 hasta 4.523
+                td.th-2.text-table Desde 1.535 hasta 14.781
               tr 
-                th.th-1  Mediana  
-                td.th-1  Desde 7.027 hasta 59.527
-                td.th-1  Desde 4.523 hasta 16.558
-                td.th-1  Desde 14.781 hasta 74.066
+                th.th-1.text-table Mediana  
+                td.th-1.text-table  Desde 7.027 hasta 59.527
+                td.th-1.text-table  Desde 4.523 hasta 16.558
+                td.th-1.text-table  Desde 14.781 hasta 74.066
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5 
 
@@ -173,7 +173,7 @@
               .col-12.col-md-4.mb-3.mb-md-0
                 img.mt-3(src="@/assets/curso/images/tema1/img_6.png").m-auto
               .col-12.col-md-6.mb-3.mb-md-0
-                h5 Cuaternario
+                h4 Cuaternario
                 p.mb-0 Son las actividades intelectuales asociadas con el gobierno, la cultura, las bibliotecas, la investigación científica, la educación y la tecnología de la información.
                 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
@@ -203,7 +203,7 @@
 
 
     .row.justify-content-evenly.align-items-center
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='¿Qué son las sociedades?' numero='1')
             .row.justify-content-center.align-items-star
@@ -234,12 +234,12 @@
               .col-12.col-lg-12.mb-4.mb-lg-0
   
                 p.mb-0  En este tipo de sociedad, todos los socios, en nombre colectivo, responderán solidaria e ilimitadamente por las operaciones sociales.
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-right").mb-5
         img(src='@/assets/curso/images/tema1/img_10.png')
     .row.justify-content-evenly.align-items-center
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-right").mt-3
         img(src='@/assets/curso/images/tema1/img_8.png').mb-3
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Sociedad por acciones simplificada S.A.S.' numero='6')
             .row.justify-content-center.align-items-star
@@ -261,7 +261,7 @@
                 p.mb-0 La razón social de la sociedad en comandita por acciones se formará con el nombre completo o solo el apellido de uno o más socios colectivos, y se agregará la expresión “y compañía” o la abreviatura “& Cía”, seguida de las palabras “sociedad comanditaria por acciones” o su abreviatura “SCA”, que significa: esta es una sociedad  colectiva. (CCC, 2020).
 
       
-    .row.aling.mb-2   
+    .row.aling.my-2   
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom-1.p-2.mb-4
           .row.justify-content-around.align-items-center
@@ -397,7 +397,7 @@
             .col-md-9.mb-4.mb-md-0
               p.mb-3  Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
             .col-6.col-lg-2.mb-4.mb-lg-0
-              img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
+              img(src='@/assets/curso/images/tema1/ico_new_4.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
       .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_11.png' alt='', style="width:500px; display:block; margin:auto 0;")
 
@@ -534,7 +534,7 @@
    
           
 
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz de  PCI")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Matriz de  PCI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h4 Matriz de  PCI
@@ -555,7 +555,7 @@
                   )
                     img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
                     .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Modelo de las cinco fuerzas")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Modelo de las cinco fuerzas")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h4 Modelo de las cinco fuerzas
@@ -583,7 +583,7 @@
                   )
                     img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
                     .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz EFI")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Matriz EFI")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h4 Matriz EFI
@@ -610,7 +610,7 @@
                   )
                     img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
                     .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz MEFE")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Matriz MEFE")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h4 Matriz MEFE
@@ -635,7 +635,7 @@
                   )
                     img.mx-0(src='@/assets/curso/images/tema1/btn_1.svg',  alt='', style="width:60px; display:block; margin:auto 0 ;")
                     .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4.tabs-c__content-item-1.tab-c(titulo="Matriz POAM")
+      .py-3.py-md-4.tabs-c__content-item-1.tab-c.mg-top-2(titulo="Matriz POAM")
         .row.justify-content-center.align-items-center.p-4 
           .col-12.col-md-6.mb-3.mb-md-0
             h4 Matriz POAM

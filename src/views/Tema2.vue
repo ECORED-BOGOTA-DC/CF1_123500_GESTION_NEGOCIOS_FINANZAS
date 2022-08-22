@@ -21,16 +21,16 @@
           img(src='@/assets/curso/images/tema2/icon_1.svg' alt='', style="width:170px")
           .tarjeta.mx-4
             .p-4
-              h4.text-center.mb-4 Método
-              p.text-center.mb-5 El método es el procedimiento general.
+              h4.text-center.mb-3 Método
+              p.text-center.mb-0 El método es el procedimiento general.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/icon_2.svg', style="width:170px;")
           .tarjeta
             .p-4
-              h4.text-center.mb-4 Técnica
-              p.text-center.mb-5 La técnica se refiere a las maneras de abordar distintas actividades de forma estandarizada.
+              h4.text-center.mb-3 Técnica
+              p.text-center.mb-0 La técnica se refiere a las maneras de abordar distintas actividades de forma estandarizada.
 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -38,8 +38,8 @@
           img(src='@/assets/curso/images/tema2/icon_3.svg' , style="width:170px;")
           .tarjeta
             .p-4
-              h4.text-center Instrumentos
-              p.text-center Los instrumentos son los mecanismos  para recoger la información de forma direccionada y organizada.
+              h4.text-center.mb-3  Instrumentos
+              p.text-center.mb-0 Los instrumentos son los mecanismos  para recoger la información de forma direccionada y organizada.
 
       .row.align-items-center.justify-content-center
         .col-lg-10
@@ -276,7 +276,7 @@
           .list__txt    
             p.m-top Comunidades <i>online.</i> 
           
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mg-top-1
       
     .row.aling
       .col-lg-12(data-aos="zoom-in-down")
@@ -467,7 +467,7 @@
     
     h5 Características de los grupos de interés o stakeholders
     .row.justify-content-evenly.align-items-center
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4.md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Legitimidad' numero='1')
             .row.justify-content-center.align-items-star
@@ -538,7 +538,7 @@
     .row.justify-content-evenly.align-items-center
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/images/tema2/img_25.svg').mb-3
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4.md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Grupos de interés externos' numero='1')
             .row.justify-content-center.align-items-star
