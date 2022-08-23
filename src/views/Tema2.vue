@@ -289,7 +289,7 @@
 
     .row.align-items-center.align-items-center.bg-rosa.mb-3
       .col-lg-12
-        PasosB.color-acento-botones.py-5.px-4
+        PasosB.color-acento-botones.py-5.px-5
           .row(titulo="")
             .col-md-6.mb-4.mb-md-0
               h5 Encuesta
