@@ -393,7 +393,7 @@
               p.mb-3  En este departamento, se desarrolla el <i>hardware</i> y el <i>software</i> que brinda el soporte técnico y que se usará para el manejo de datos e información. Además de aportar para que los procesos de producción y comercialización se vuelvan más eficientes.
             .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_new_3.svg'  alt='', style="width:120px; display:block; margin:auto 0;")
-          .row.justify-content-center.align-items-center(titulo="Plan de saneamiento")
+          .row.justify-content-center.align-items-center(titulo="Servicio al cliente")
             .col-md-9.mb-4.mb-md-0
               p.mb-3  Busca atender y servir de mejor forma a los clientes de la empresa, dando respuesta rápida a los requerimientos de los clientes, como reclamos, quejas e inquietudes, con el fin de mantener su fidelidad.
             .col-6.col-lg-2.mb-4.mb-lg-0
