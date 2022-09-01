@@ -305,10 +305,30 @@
               h5 Observación
               p.mb-3  Técnica de recolección de información que consiste en la inspección y estudio de los hechos u objeto de investigación, tal como ocurren en la realidad, a través del uso de los sentidos (con o sin ayuda de soportes tecnológicos), de acuerdo con los requerimientos de estudio y a partir de las categorías perceptivas definidas desde las teorías científicas que apoyan la investigación. Los tipos de técnicas de observación existentes son:
 
-              p Directa.
-              p.mb-0 Indirecta: ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno. La dependencia del observador de los instrumentos es fundamental en este tipo de observación.
-              p.mb-0 La participante: atañe a la observación que realiza el investigador de manera cercana a la realidad.
-              p.mb-0 No participante: corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Directa.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Indirecta: ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno. La dependencia del observador de los instrumentos es fundamental en este tipo de observación.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top La participante: atañe a la observación que realiza el investigador de manera cercana a la realidad.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top No participante: corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
                         
             .col-md-6
               figure
@@ -370,11 +390,25 @@
               h5 Categorización. Triangulación y teoría fundamentada
               p.mb-3 Consiste en realizar un proceso a través del cual se busca reducir la información de la investigación, con el fin de describirla de manera conceptual y que esta responda a una estructura sistemática e inteligible para las personas y que, a su vez, sea significativa. Para que esta información conserve su carácter en este proceso de categorización, es necesario que el investigador conserve los temas tratados en la investigación, ya que esto permite mantener los resultados de la investigación encontrados por su autor.
               p.mb-3 También es pertinente mencionar que esta herramienta es un proceso cognitivo complejo de clasificación según las semejanzas y diferencias encontradas, que responden a unos criterios previamente determinados, es decir, la agrupación de información, de acuerdo con sus características, en capítulos, apartados o conjuntos y subconjuntos a los que se les debe asignar nombre. Las categorías se dividen en tres clases: 
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Deductivas: se fundamentan en el marco conceptual, las preguntas y objetivos de investigación.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Inductivas: emergen de los datos con base en el examen de patrones y recurrencias.
+              .list
+                .list__item
+                  .list__item__icon
+                    img.img-a(src="@/assets/curso/images/tema2/folder.svg").img-fluid  
+                .list__txt    
+                  p.m-top Abductivas: descubrimiento de eventos anómalos o sorpresivos sobre los que se crean conceptos.
 
-              p.mb-0 Deductivas: se fundamentan en el marco conceptual, las preguntas y objetivos de investigación.
-              p.mb-0 Inductivas: emergen de los datos con base en el examen de patrones y recurrencias.
-              p.mb-0 Abductivas: descubrimiento de eventos anómalos o sorpresivos sobre los que se crean conceptos.
-          
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/img_21.png', alt='Texto que describa la imagen')
@@ -395,8 +429,8 @@
 
           .row(titulo="")
             .col-md-6.mb-4.mb-md-0
-              h5 Comunidades online
-              p.mb-3 Llamadas también Insight Community, herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés y así conocer sus comentarios, observaciones y sugerencias, por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
+              h5 Comunidades <i>online</i>
+              p.mb-3 Llamadas también <i>Insight Community</i>, herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés y así conocer sus comentarios, observaciones y sugerencias, por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
 
               p.mb-0 Este instrumento es muy valorado por las empresas, pues a través de él las organizaciones encuentran información inmediata, lo cual les permite acceder al amplio conocimiento que poseen los participantes.
           
@@ -427,12 +461,12 @@
           p.mb-0 Son clientes de la marca que participan en diferentes actividades, como fotos o lluvias de ideas sobre nuevos productos y servicios.
 
     h3.mb-3 Técnica e instrumentos de recolección de información
-    p.mb-3 La magnitud de la empresa estaba dada por el número de colaboradores en actividad, pero, a partir del mes de junio, el Gobierno Nacional, mediante Decreto 957 de 2019, definió el criterio único de clasificación del tamaño de las empresas de acuerdo con sus ingresos por actividades ordinarias, el cual entró en vigencia en diciembre del mismo año, así:
+    p.mb-3 El siguiente gráfico ejemplifica de forma genérica cómo seleccionar el instrumento de acuerdo con la técnica a implementar.  
     
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-          h5 Figura 7
+          h5 Figura 8
           span Definiciones de empresa
         img.mt-3(src='@/assets/curso/images/tema2/fig_2.svg')(data-aos="zoom-in-right")
 
@@ -545,7 +579,7 @@
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  Mantienen algún vínculo con la empresa. En este grupo, se encuentran los clientes, proveedores, entidades financieras, comunidad local, organizaciones gremiales, entre otros.
 
-          .row(titulo='Grupos de interés internos' numero='2')
+          .row(titulo='Grupos de interés primarios' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  Pueden identificarse por el tipo de relación que mantienen con la empresa, como los contratistas, por ejemplo.
@@ -556,7 +590,7 @@
                 p.mb-3  Pertenecen a la organización o tienen participación en el desarrollo empresarial; en este grupo, están los accionistas, directivos y colaboradores.
 
 
-          .row(titulo='Sociedad en Comandita por Acciones' numero='4')
+          .row(titulo='Grupos de interés secundarios.' numero='4')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  Se identifican por el grado de influencia que ejercen en la organización de manera informal.
@@ -572,7 +606,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-          h5 Figura 7
+          h5 Figura 11
           span Mapa de <i>stakeholders</i>
         img.mt-3(src='@/assets/curso/images/tema2/fig_5.svg')(data-aos="zoom-in-down")
     

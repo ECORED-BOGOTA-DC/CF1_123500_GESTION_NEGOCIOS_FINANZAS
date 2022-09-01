@@ -260,7 +260,7 @@ export default {
         'https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf',
     },
     {
-      tema: '1.2. Clasificación.',
+      tema: '1.2. Áreas funcionales.',
       referencia:
         'Cámara de Comercio de Cúcuta. (s. f.). Consolidado comparativo de sociedades',
       tipo: 'Documento – cuadro comparativo',

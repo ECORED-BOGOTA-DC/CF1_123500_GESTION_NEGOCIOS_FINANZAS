@@ -58,14 +58,14 @@
 
           p.mb-3 La empresa, entonces, también se define como un conjunto de factores económicos que, coordinados o bien direccionados por el empresario, cumplen la función de producir bienes y lograr un objetivo que constantemente es maximizar el valor de su empresa, es decir, a través de su desempeño lograr generar riqueza o fortalecer su capital.
 
-          p.mb-0 Las empresas también cumplen funciones no solo económicas sino sociales, pues a través de sus decisiones, de la responsabilidad social empresarial, de la interacción con el colaborador, la asignación y desarrollo de funciones, sumado a las capacitaciones y entrenamientos que brinda, con el fin de lograr la productividad en todas las áreas que la integran, genera a su vez un desarrollo profesional en cada integrante de la organización como motivación para mejorar su cualificación y para realizarse en el área profesional.
+          p.mb-5 Las empresas también cumplen funciones no solo económicas sino sociales, pues a través de sus decisiones, de la responsabilidad social empresarial, de la interacción con el colaborador, la asignación y desarrollo de funciones, sumado a las capacitaciones y entrenamientos que brinda, con el fin de lograr la productividad en todas las áreas que la integran, genera a su vez un desarrollo profesional en cada integrante de la organización como motivación para mejorar su cualificación y para realizarse en el área profesional.
 
    
       .col-lg-4(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema1/img_1.png')
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-star.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema1/img_2.png').mb-3
 
@@ -73,7 +73,7 @@
 
           p.mb-3 Al estar compuesta por áreas funcionales, cada una de ellas aporta al desarrollo integral de la empresa, lo que, a su vez, redunda en un beneficio regional e incluso nacional si las magnitudes de sus innovaciones o transformaciones permiten alcanzar grandes retos o resolver grandes problemas, despertando niveles elevados de interés, como la inversión extranjera, generando de esta manera el ingreso de divisas al país, lo cual beneficia a todo el territorio nacional.
 
-          p.mb-0 Ahora bien, las características de la empresa son los rasgos que la identifican como ente productivo y económico que ofrece bienes y servicios. Esta inicia sus actividades, como se ha mencionado, con gran expectativa de satisfacer las necesidades de los clientes y poder llegar a fidelizarlos, generando así ingresos que le permitan ampliar su capacidad productiva, lanzar nuevas líneas de productos, crecer y consolidarse en el sector al que pertenezca. La organización debe estar cargada de dinamismo para adaptarse a los cambios que el entorno le presente y coordinar sus recursos para el logro de los objetivos. Por tanto, las siguientes pueden identificarse como sus características.
+          p.mb-5 Ahora bien, las características de la empresa son los rasgos que la identifican como ente productivo y económico que ofrece bienes y servicios. Esta inicia sus actividades, como se ha mencionado, con gran expectativa de satisfacer las necesidades de los clientes y poder llegar a fidelizarlos, generando así ingresos que le permitan ampliar su capacidad productiva, lanzar nuevas líneas de productos, crecer y consolidarse en el sector al que pertenezca. La organización debe estar cargada de dinamismo para adaptarse a los cambios que el entorno le presente y coordinar sus recursos para el logro de los objetivos. Por tanto, las siguientes pueden identificarse como sus características.
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mg-top-1.mb-5 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
@@ -307,7 +307,7 @@
                   h5 Consolidado de sociedades en Colombia
                   p.mb-1.text El siguiente cuadro comparativo permite analizar cada una de las sociedades de acuerdo con sus características. Recurso que también puede ser consultado en el material de apoyo.
                 .col-md-auto
-                  a.boton.color-custom-6.texto-blanco(:href="obtenerLink('downloads/Consolidado de sociedades en Colombia.pdf')" target="_blank")
+                  a.boton.color-custom-6.texto-blanco(:href="obtenerLink('downloads/ConsolidadodesociedadesenColombia.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto
@@ -365,11 +365,11 @@
 
         
       
-      .py-4.py-md-5.bg-rosa.p-4(titulo="Marketing y ventas" :icono="require('@/assets/curso/images/tema1/icon_5.svg')")
+      .py-4.py-md-5.bg-rosa.p-4(titulo="<i>Marketing</i> y ventas" :icono="require('@/assets/curso/images/tema1/icon_5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h4 Marketing y ventas
-            p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de marketing que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
+            h4 <i>Marketing</i> y ventas
+            p.mb-3  Esta área direcciona sus esfuerzos en la planificación y diseño de nuevos productos, estableciendo el ciclo de vida que tendrán. Define las estrategias de <i>Marketing</i> que se aplicarán de acuerdo con el mercado o segmento, para una efectiva captación de clientes, mediante una comunicación estratégica. Sus esfuerzos se orientan al exterior de la empresa.
 
             p.mb-0 Se encarga de planificar la mezcla de <i>marketing</i> en cuanto a producto, precio, comunicación y distribución, con base en los distintos bienes y servicios que ofrece al mercado.
         
@@ -411,7 +411,6 @@
     figure.mb-5
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8UBmSaGk48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
     p.mb-3 Algunas causas que dan origen al diagnóstico organizacional, de acuerdo con Celaya (2010), son:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1
@@ -440,7 +439,7 @@
         img.mt-3(src='@/assets/curso/images/tema1/img.png').mb-3
       .col-lg-5(data-aos="fade-right") 
 
-          p.mb-3  De otra parte, cuando la organización está inmersa en un entorno bastante complejo, es necesario que mantenga cierta cercanía con ese grado de complejidad, de manera que, al incrementar esa misma complejidad en el entorno, es decir, cambios de gobierno o cambio de política ,entre otros, estará obligada a aumentar su complejidad interna, en otras palabras, a desarrollar mayor fortaleza en los procesos, o contracción de la producción, si es el caso; en fin, diferentes cambios drásticos que deba afrontar, para lo cual requiere estar preparada y lo cual genera la habilidad de adaptación constante en congruencia con los cambios que se presentan en el contexto.
+          p.mb-3  De otra parte, cuando la organización está inmersa en un entorno bastante complejo, es necesario que mantenga cierta cercanía con ese grado de complejidad, de manera que, al incrementar esa misma complejidad en el entorno, es decir, cambios de gobierno o cambio de política, entre otros, estará obligada a aumentar su complejidad interna, en otras palabras, a desarrollar mayor fortaleza en los procesos, o contracción de la producción, si es el caso; en fin, diferentes cambios drásticos que deba afrontar, para lo cual requiere estar preparada y lo cual genera la habilidad de adaptación constante en congruencia con los cambios que se presentan en el contexto.
 
           p.mb-0 De ahí, la importancia de trabajar de la mano con su talento humano, pues, al construir un sentido de pertenencia sólido, se crea un clima organizacional sin fronteras, permitiendo el avance constante hacia nuevas tendencias y nuevos retos que, al asumirlos, generan crecimiento para ambas partes.
                   
@@ -524,7 +523,7 @@
                   img(src="@/assets/curso/images/tema1/fig_dofa.svg").m-auto
               .col-md-3
                 a.boton-1.me-2.indicador__container(
-                  :href="obtenerLink('downloads/Matriz FODA.pdf')"
+                  :href="obtenerLink('downloads/MatrizFODA.pdf')"
                   target="_blank"
                   type="application/pdf"
                   @mouseover="mostrarIndicador = false"
@@ -576,7 +575,7 @@
                     img(src="@/assets/curso/images/tema1/fig_6.svg").m-auto
                 .col-md-3
                   a.boton-1.me-2.indicador__container(
-                    :href="obtenerLink('downloads/Modelo de las Cinco Fuerzas.pdf')"
+                    :href="obtenerLink('downloads/ModelodelasCincoFuerzas.pdf')"
                     target="_blank"
                     type="application/pdf"
                     @mouseover="mostrarIndicador = false"
@@ -603,7 +602,7 @@
                     img(src="@/assets/curso/images/tema1/fig_dofa_3.svg").m-auto
                 .col-md-3
                   a.boton-1.me-2.indicador__container(
-                    :href="obtenerLink('downloads/Matriz EFI.pdf')"
+                    :href="obtenerLink('downloads/MatrizEFI.pdf')"
                     target="_blank"
                     type="application/pdf"
                     @mouseover="mostrarIndicador = false"
@@ -628,7 +627,7 @@
                     img(src="@/assets/curso/images/tema1/fig_dofa_4.svg").m-auto
                 .col-md-3
                   a.boton-1.me-2.indicador__container(
-                    :href="obtenerLink('downloads/Matriz MEFE.pdf')"
+                    :href="obtenerLink('downloads/MatrizMEFE.pdf')"
                     target="_blank"
                     type="application/pdf"
                     @mouseover="mostrarIndicador = false"
@@ -658,7 +657,7 @@
                     img(src="@/assets/curso/images/tema1/fig_dofa_5.svg").m-auto
                 .col-md-3
                   a.boton-1.me-2.indicador__container(
-                    :href="obtenerLink('downloads/Matriz POAM.pdf')"
+                    :href="obtenerLink('downloads/MatrizPOAM.pdf')"
                     target="_blank"
                     type="application/pdf"
                     @mouseover="mostrarIndicador = false"
