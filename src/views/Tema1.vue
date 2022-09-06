@@ -547,7 +547,7 @@
                     img(src="@/assets/curso/images/tema1/fig_dofa_2.svg").m-auto
                 .col-md-3
                   a.boton-1.me-2.indicador__container(
-                    :href="obtenerLink('downloads/Matriz de  PCI.pdf')"
+                    :href="obtenerLink('downloads/MatrizdePCI.pdf')"
                     target="_blank"
                     type="application/pdf"
                     @mouseover="mostrarIndicador = false"

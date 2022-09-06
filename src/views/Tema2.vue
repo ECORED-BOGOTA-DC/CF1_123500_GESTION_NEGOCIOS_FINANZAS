@@ -467,7 +467,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 8
-          span Definiciones de empresa
+          span Técnica e instrumentos de recolección de información.
         img.mt-3(src='@/assets/curso/images/tema2/fig_2.svg')(data-aos="zoom-in-right")
 
     Separador
