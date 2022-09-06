@@ -207,9 +207,9 @@ export default {
     },
     {
       referencia:
-        'Robichaud, F. (2018). Mapeo de grupos de interés: Cómo las herramientas de mapeo de grupos de interés mejoran la gestión de sus grupos de interés. Borealis.',
+        'Robichaud, F. (2018). Mapeo de grupos de interés: Cuándo, por qué y cómo mapear los grupos de interés.',
       link:
-        'https://www.boreal-is.com/es/blog/mapeo-partes-interesadas-grupos-interes/ ',
+        'https://www.boreal-is.com/es/blog/mapeo-partes-interesadas-grupos-interes/',
     },
     {
       referencia:
