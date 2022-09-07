@@ -288,7 +288,7 @@
                   h5 Tipos de sociedades en Colombia
                   p.mb-1.text Amplía el conocimiento sobre los tipos de sociedades en Colombia.
                 .col-md-auto
-                  a.boton.color-acento-botones(href=" https://www.youtube.com/watch?v=IvTbUlDBrrg)" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/C45SM5MlqfU" target="_blank")
                     span Ver video
                     .row
                       .col-auto
